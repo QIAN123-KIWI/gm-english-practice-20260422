@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0d5b61">
   <title>外籍总经理讲话练习</title>
+  <link rel="preload" href="full.mp3" as="audio">
   <style>
     :root {
       --bg: #f3ede3;
@@ -458,12 +459,18 @@
     const playFullButton = document.getElementById("play-full");
     const fullPlayer = new Audio("full.mp3");
     const clipPlayers = new Map();
+    const warmedClipIds = new Set();
+    const segmentMap = new Map();
+    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || null;
+    const allowAggressiveWarmup = !connection || (!connection.saveData && !/2g/.test(connection.effectiveType || ""));
+    const initialWarmCount = allowAggressiveWarmup ? 5 : 2;
 
     let segments = [];
     let activeId = null;
     let currentClip = null;
+    let observer = null;
 
-    fullPlayer.preload = "none";
+    fullPlayer.preload = "metadata";
 
     function updateStatus(text) {
       status.textContent = text;
@@ -509,10 +516,15 @@
       fullPlayer.currentTime = 0;
     }
 
+    function warmFullAudio() {
+      fullPlayer.preload = allowAggressiveWarmup ? "auto" : "metadata";
+      fullPlayer.load();
+    }
+
     function getClipPlayer(segment) {
       if (!clipPlayers.has(segment.id)) {
         const player = new Audio(segment.audio_file);
-        player.preload = "none";
+        player.preload = "metadata";
         player.addEventListener("ended", () => {
           if (currentClip === player) {
             currentClip = null;
@@ -528,6 +540,38 @@
         clipPlayers.set(segment.id, player);
       }
       return clipPlayers.get(segment.id);
+    }
+
+    function warmClip(segment, eager = false) {
+      if (!segment || warmedClipIds.has(segment.id)) return;
+      warmedClipIds.add(segment.id);
+      const player = getClipPlayer(segment);
+      player.preload = eager ? "auto" : "metadata";
+      player.load();
+    }
+
+    function scheduleWarmup(callback) {
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(callback, { timeout: 1500 });
+      } else {
+        window.setTimeout(callback, 300);
+      }
+    }
+
+    function setupObserver() {
+      if (!("IntersectionObserver" in window)) return;
+      observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const id = Number(entry.target.dataset.id);
+          warmClip(segmentMap.get(id), allowAggressiveWarmup);
+          observer.unobserve(entry.target);
+        });
+      }, {
+        rootMargin: "220px 0px"
+      });
+
+      document.querySelectorAll(".sentence").forEach((card) => observer.observe(card));
     }
 
     async function playFull() {
@@ -580,7 +624,12 @@
           <p class="en">${escapeHtml(segment.en)}</p>
           <p class="zh">${escapeHtml(segment.zh)}</p>
         `;
-        article.querySelector(".clip-btn").addEventListener("click", () => playClip(segment));
+        const button = article.querySelector(".clip-btn");
+        button.addEventListener("pointerdown", () => warmClip(segment, true), { passive: true });
+        button.addEventListener("touchstart", () => warmClip(segment, true), { passive: true });
+        button.addEventListener("mouseenter", () => warmClip(segment, false));
+        button.addEventListener("focus", () => warmClip(segment, false));
+        button.addEventListener("click", () => playClip(segment));
         list.appendChild(article);
       });
     }
@@ -591,7 +640,13 @@
         const response = await fetch("segments.json", { cache: "force-cache" });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         segments = await response.json();
+        segments.forEach((segment) => segmentMap.set(segment.id, segment));
         renderSegments();
+        warmFullAudio();
+        scheduleWarmup(() => {
+          segments.slice(0, initialWarmCount).forEach((segment) => warmClip(segment, true));
+        });
+        setupObserver();
         updateStatus(TEXT.statusLoaded(segments.length));
       } catch (error) {
         list.innerHTML = '<div class="loading-card">加载失败，请刷新页面重试。</div>';
@@ -599,6 +654,8 @@
       }
     }
 
+    playFullButton.addEventListener("pointerdown", warmFullAudio, { passive: true });
+    playFullButton.addEventListener("touchstart", warmFullAudio, { passive: true });
     playFullButton.addEventListener("click", playFull);
     fullPlayer.addEventListener("ended", () => updateStatus(TEXT.statusFullDone));
     fullPlayer.addEventListener("error", () => updateStatus(TEXT.statusPlayFailed));
