@@ -4,9 +4,9 @@
     {
       "topic": "hotel-planning",
       "segment_id": 1,
-      "status": "pass",
-      "detected_text": "light like the last time I mentioned that my people was there to present that after meaning",
-      "reason": "pass"
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
     },
     {
       "topic": "hotel-planning",
@@ -18,44 +18,44 @@
     {
       "topic": "hotel-planning",
       "segment_id": 3,
-      "status": "pass",
-      "detected_text": "It's very simplified, very simple.",
-      "reason": "pass"
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 4,
-      "status": "pass",
-      "detected_text": "I wanted to focus on those reinforce our service standards and our product maintenance status. Really key focus on this.",
-      "reason": "pass"
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 5,
-      "status": "pass",
-      "detected_text": "Then a mini-year strategy, it's not from this end of this year, but really, we need to strengthen our brand culture of every product, every service. Even checking process, even room amenities, all kind of promotion, we need to do this.",
-      "reason": "pass"
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 6,
-      "status": "pass",
-      "detected_text": "And in the end, in the long term, eventually I wanted to beat the panacea line every grade. However, sustainable performance is really key important. We are now very much not proper that too much rooms very less of the opinion. This is the typical status of all the hotel didn't really support with these two things. So I wanted to change this to sustainable and then ranking are directly by two driving average rate ranking higher.",
-      "reason": "pass"
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 7,
       "status": "pass",
-      "detected_text": "this is a short term and then a short term this is kind of key area just going out short term how I'm going to improve so our index service index practice picking very much more than our even average also Ctrip booking.com over our numbers are we're showing that we really need to improve our service standards also re-establish our luxury culture and service in our overall service and product when we are always discussing within team those philosophical We have a great hardware, but software and product we still need to improve. And then each department almost is required on each area. And then we need to work as a team, team to team team. We put the gas in front and then the team to team. And then this one should be consistent. So those are the things when I look at that we need to focus on shortly.",
+      "detected_text": "And then a short term, this is kind of key area just going out, short term how I'm going to improve. So our index, service index, frankly speaking, very much more than our even average. Also Ctrip, booking.com, we're showing that we really need to improve our service standards. Also re-establish our luxury merchants and service in our overall service and product when we are always discussing within team. Though we have a great hardware but software and product we've still need to improve. I",
       "reason": "pass"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 8,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "原声与中文口译重叠，未提供可播原声"
+      "status": "pass",
+      "detected_text": "The C trip score, and these are the Expedia Booking Decom scores compared to all the Wightam hotels. If you look at that, we are overall very low. So this is kind of the objective point of view. The quality is now really good.",
+      "reason": "pass"
     },
     {
       "topic": "hotel-planning",
@@ -75,32 +75,32 @@
       "topic": "hotel-planning",
       "segment_id": 11,
       "status": "pass",
-      "detected_text": "So this is a midterm. So before we talk about midterm, the first short term is a really basic experience. When we go to the hotel, first welcoming, helping my bags, checking process. When I go to the room that everything is ready, those kind of experiences we need to deliver. So that's why short term I focus on that.",
+      "detected_text": "So before we talk about midterm, the first short term is a really basic experience. When we go to the hotel, first welcoming, helping my bags, checking process, when I go to the room, that everything is ready. Those kind of experiences we need to deliver. So that's why I shorten my focus on that.",
       "reason": "pass"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 12,
       "status": "pass",
-      "detected_text": "The balance of the performance is not only room leading others. Rooms, FNB itself, Ketwin itself, they are really driving all together as a really balanced, sustainable luxury.",
+      "detected_text": "So with them, like the stuff from this end of this year, all the product service we are discussing, we really need to focus on our brand and as a heritage story. As I mentioned here, this is our, by short of vision, that everything what we're talking about, our product and service should be rooted in our heritage and world.",
       "reason": "pass"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 13,
-      "status": "pass",
-      "detected_text": "We also have a nice and white, beautiful collaboration we do now, which is great, but also we need to look at our kind of near-surrounding. I think owner has a great business unit. Many of things also we can collaborate based on this root culture, and also mark home, deliver those consistency for the years and years. So market aware this and then in the end we drive guest experience with this our unique WN heritage story",
-      "reason": "pass"
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
     },
     {
       "topic": "hotel-planning",
       "segment_id": 14,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "原声与中文口译重叠，未提供可播原声"
+      "status": "pass",
+      "detected_text": "So this is a long term that I want to really be up to the rank 2 by driving AI for the future. And then our position is really the branch of our luxury, our heritage culture and fascination. And then our suspect across our fascination then. And the Forbes 5 star, I don't think we can have it next year. But I think in 2028 and 2029 we may try once we really change our culture.",
+      "reason": "pass"
     }
   ],
-  "pass_count": 9,
+  "pass_count": 5,
   "fail_count": 0,
-  "unavailable_count": 5
+  "unavailable_count": 9
 }

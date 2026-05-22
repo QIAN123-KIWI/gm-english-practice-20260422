@@ -5,84 +5,84 @@
       "topic": "business-development",
       "segment_id": 1,
       "status": "pass",
-      "detected_text": "How are two of the classes? The occupancy of the group 89, 88, or index FK is 103. Or index of all average rate is 109. So 103 and 109, and then our RAPA index is 103. So 17% higher as RAPA number 2. RAPA was really wonderful. The RAPA number 2 is really meaningful.",
+      "detected_text": "This is our frequency of 30, 89, 88, our index FK is 103, index of all average rate is 109. So 103 and 109, and then our rep bar index is 103. So 17% higher is the record number. So every was a really wonderful period. But 2 is really meaningful.",
       "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 2,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "原声与中文口译重叠，未提供可播原声"
+      "status": "fail",
+      "detected_text": "所以前段五月的情况上是我们的热帕是整体排名的,会在第三个阶段上进行热帕。",
+      "reason": "检测到中文字符"
     },
     {
       "topic": "business-development",
       "segment_id": 3,
       "status": "pass",
-      "detected_text": "This is a last year position. This is this year position. Last year position, you're here on the little bit of lower occupancy and the lower average rate. Now, a little bit higher on average rate and higher occupancy. But in the future, we need to go this side to catch up this potential. So we want to keep driving up to this point for the future.",
+      "detected_text": "This is a last year position, this is this year position, last year position we are here on the little bit of lower occupancy and the lower average rate, now a little bit higher on average rate and higher occupancy, but in the future we need to go this side to catch up this potential, so we want to keep driving on.",
       "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 4,
       "status": "pass",
-      "detected_text": "As I said, now a contracted room life is similar to last year which is on right track, but a little bit concerned is only average right now.",
+      "detected_text": "I said, really, now a contracted room life is similar to last year, which is on right track, but a little bit concerned on this only average right now.",
       "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 5,
       "status": "pass",
-      "detected_text": "our leisure segments. Our CD team is doing great job on different kind of promotion joining, keep having our average rate in occupancy high arena, which is also a great job. We are now doing the market team.",
+      "detected_text": "In our leisure segments, our CD team is doing great job on different kinds of promotion joining, our average rate in occupancy hiring, which is also a great job marketing team.",
       "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 6,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "原声与中文口译重叠，未提供可播原声"
+      "status": "fail",
+      "detected_text": "我們在這個月子中心茉莉智慧的這個生意來說 我們是希望在未來有百分之十的一個增長 目前他們的這個平均完蛋是在三千塊左右 所以就是在茉莉智慧和盛貴拉的一個對比 我們在這個月子中心茉莉智慧的這個生意來說 我們是希望在未來有百分之十的一個增長 目前他們的這個平均完蛋是在三千塊左右 莫莉智慧和盛伟拉的一个对比 我们今年和去年 基本上是持平队的考虑",
+      "reason": "检测到中文字符"
     },
     {
       "topic": "business-development",
       "segment_id": 7,
-      "status": "pass",
-      "detected_text": "GRC, I think it's good to see that only this evolution. So mainly we have GRC production established in 800. Good balance on these last two weeks, especially this Sunday Monday, we also have a good group conformed. So we are going to have the driving hour, which is great, and then also overall RGR in this period to keep this our ranking and our job position.",
-      "reason": "pass"
+      "status": "fail",
+      "detected_text": "所以對於這個越子中心莫利智慧的這個生意來說 我們是希望在未來有百分之十的一個增長 目前他們的這個平面網站是在三十千塊左右 所以這是解莫利智慧和盛貴拉的一個對比 我們今年和去年幾百十十平均的時候 在這兩星期前,尤其是在 Sunday Monday,我們也有好好的組織 所以我們在這段時間中,我們要保持榮耀的榮耀",
+      "reason": "检测到中文字符"
     },
     {
       "topic": "business-development",
       "segment_id": 8,
       "status": "pass",
-      "detected_text": "Our June total is $2,200, especially we have a big max-bar group. All the CEO corporate teams come fly from the US to stay with us. We are now concerning on this group to improve our overall FNB revenue as well. And then now there's a room like $2,200 is well-balanced on this June to keep our overall...",
+      "detected_text": "For June total is 1,200, especially we have a big max bar group, all the CEO corporate teams come from the US to stay with us. We are now concerning on this group to improve our overall FNB revenue as well, and then now there's a room life of 1,200 is well balanced in June to keep our overall result of cheapness as well.",
       "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 9,
       "status": "pass",
-      "detected_text": "on the room life with average rates 2004, but this year is already 8% higher, under 5,800, 600 room life more, and then average rate also around 130 RMB higher. So the condition of the May is also well balanced. So now, half full year forecast, we are now looking at that 9,000,000 and a half million, 85,000,000 a half million a half million a half million a half million.",
+      "detected_text": "and then every rate also around 130 RMB higher. So the condition of the May is also well balanced. So now, a full year forecast, we are now looking at that 97 million and a half million, 85 million on our budget.",
       "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 10,
       "status": "pass",
-      "detected_text": "Just a few point is, now we have this long term average rate is 1400, last year 1600. In this one, we may need to have a look into detail, and the corporate area is 14 to 15.",
+      "detected_text": "Just a few point is, now we have this long term average rate is 1,400 last year 1,600. In this one, we may need to have a look into detail. The one five minutes corporate rule is one among all other segments. The corporate room light and overall average rates, which is higher than last year, we may need to re-look into detail. We really need it or do we really need to shift other segments?",
       "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 11,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "原声与中文口译重叠，未提供可播原声"
+      "status": "fail",
+      "detected_text": "其实这些计划,我完全不明白这些计划,让我证明一下,然后再调整一下 所以这个协成这一页,我先看一下具体的情况,然后稍后再跟各位做这个会议",
+      "reason": "检测到中文字符"
     },
     {
       "topic": "business-development",
       "segment_id": 12,
       "status": "pass",
-      "detected_text": "K-Train overall by main YTD, we are also having 33 points, total overall we are around 5. K-Train overall is higher by main YTD. Now until April YTD we are higher, but the main also, now we are looking at 4.3 million, 33.8 million we are higher, But we see that from June, our forecast compared to budget is a little bit behind now. So maybe we need to improve our wedding section, which is our target is 20 million on this year. But the moment our definite of this second half is a little bit weaker than budget. So I think Jerry already working with the marketing team and then Bank of Service team how we can improve this wedding number to catch up this overall webging budget and then catch it in budget.",
+      "detected_text": "K-3 overall by main YTD, we are also having budget 3.0, total overall we are around higher. This K-3 overall is higher by main YTD. Today April is ahead, May is ahead. Okay, so now until April YTD we are higher, but the main also, also now we are looking at the 4.3 million, budget 3.8 million we are higher but we see that from June our forecast compared to budget is a little bit behind now so maybe we need to improve our weddings action which is our target is 20 million on this year but the moment our definite of this second half is a little bit weaker than budget so I think Jerry already working with the marketing team and then Bank of Service team how we can improve this wedding number to catch up this overall wedding budget and then catch up in budget.",
       "reason": "pass"
     },
     {
@@ -90,38 +90,38 @@
       "segment_id": 13,
       "status": "unavailable",
       "detected_text": "",
-      "reason": "自动验证未通过：检测到中文字符"
+      "reason": "原声与中文口译重叠，未提供可播原声"
     },
     {
       "topic": "business-development",
       "segment_id": 14,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "自动验证未通过：检测到中文字符"
+      "status": "pass",
+      "detected_text": "In the media clipping, advertise plans, the total of our impact is 1.2 million, and then all of our appeal impact is 3.8 million. Then we are going to more focus on each of the venue promotion and the season of promotion, and special day promotion like Children's Day, Father's Day, or Vibe to Gerald, or also like our MoonKate, etc., using this media with us.",
+      "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 15,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "自动验证未通过：检测到中文字符"
+      "status": "fail",
+      "detected_text": "所以目前看来 这都我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我们认识的 我們身上的一些說法渠道是沒有去年的成績好的",
+      "reason": "检测到中文字符"
     },
     {
       "topic": "business-development",
       "segment_id": 16,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "原声与中文口译重叠，未提供可播原声"
+      "status": "pass",
+      "detected_text": "I think the CND team has a great jump line.",
+      "reason": "pass"
     },
     {
       "topic": "business-development",
       "segment_id": 17,
-      "status": "unavailable",
-      "detected_text": "",
-      "reason": "原声与中文口译重叠，未提供可播原声"
+      "status": "fail",
+      "detected_text": "包括一些新出的菜品",
+      "reason": "检测到中文字符"
     }
   ],
-  "pass_count": 9,
-  "fail_count": 0,
-  "unavailable_count": 8
+  "pass_count": 10,
+  "fail_count": 6,
+  "unavailable_count": 1
 }

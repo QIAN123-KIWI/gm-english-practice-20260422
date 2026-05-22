@@ -7,7 +7,7 @@
     "base_path": "topics/hotel-planning",
     "docx_file": "documents/hotel-planning-bilingual.docx",
     "segment_count": 14,
-    "clip_count": 9
+    "clip_count": 5
   },
   {
     "slug": "business-development",
@@ -17,6 +17,6 @@
     "base_path": "topics/business-development",
     "docx_file": "documents/business-development-bilingual.docx",
     "segment_count": 17,
-    "clip_count": 9
+    "clip_count": 10
   }
 ]

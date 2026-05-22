@@ -1,0 +1,1474 @@
+[
+  {
+    "id": 1,
+    "start": 0.99,
+    "end": 4.28,
+    "text": "像是前一天我提到的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 2,
+    "start": 4.28,
+    "end": 8.29,
+    "text": "我的人生是要給我",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 3,
+    "start": 9.21,
+    "end": 13.92,
+    "text": "所以主任也準備了一個",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 4,
+    "start": 13.92,
+    "end": 16.96,
+    "text": "他目前就是比較關注的幾個工作重點",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 5,
+    "start": 16.96,
+    "end": 19.28,
+    "text": "所以他希望在最後的環節",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 6,
+    "start": 19.28,
+    "end": 21.99,
+    "text": "再提下給各位聽到",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 7,
+    "start": 21.99,
+    "end": 51.23,
+    "text": "OK 請大家來跟大家進行這個會訪",
+    "lang": "mixed",
+    "confidence": 1.0
+  },
+  {
+    "id": 8,
+    "start": 51.23,
+    "end": 63.72,
+    "text": "主要的就是非常簡單的幾個繞點來跟動力領導分析一下",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 9,
+    "start": 63.72,
+    "end": 77.21,
+    "text": "主要分為三個策略重點,一個是短期的,一個是中期的,一個是長期的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 10,
+    "start": 77.21,
+    "end": 84.73,
+    "text": "所以每個階段都有不同的工作重點",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 11,
+    "start": 111.3,
+    "end": 114.54,
+    "text": "这些东西都是我们需要做的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 12,
+    "start": 114.54,
+    "end": 118.54,
+    "text": "最后,我还想试试",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 13,
+    "start": 118.54,
+    "end": 124.91,
+    "text": "但是我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 14,
+    "start": 124.91,
+    "end": 127.91,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 15,
+    "start": 127.91,
+    "end": 130.13,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 16,
+    "start": 130.13,
+    "end": 131.13,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 17,
+    "start": 131.13,
+    "end": 132.13,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 18,
+    "start": 132.13,
+    "end": 133.31,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 19,
+    "start": 133.31,
+    "end": 134.31,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 20,
+    "start": 134.31,
+    "end": 135.52,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 21,
+    "start": 135.52,
+    "end": 136.52,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 22,
+    "start": 136.52,
+    "end": 137.7,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 23,
+    "start": 137.7,
+    "end": 138.7,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 24,
+    "start": 138.7,
+    "end": 139.7,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 25,
+    "start": 139.7,
+    "end": 140.7,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 26,
+    "start": 140.7,
+    "end": 141.7,
+    "text": "我们现在非常不适合",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 27,
+    "start": 141.7,
+    "end": 149.7,
+    "text": "所以我们这个短期的工作重点是一个是要强化生化的这个风格以及包括加强",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 28,
+    "start": 149.7,
+    "end": 152.7,
+    "text": "我们目前现有产品的一个维护和保养",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 29,
+    "start": 152.7,
+    "end": 157.7,
+    "text": "中期的话就是从今年的第四季度开始到二零二八年这样的一个阶段",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 30,
+    "start": 157.7,
+    "end": 164.7,
+    "text": "是最主要是想强化我们华尔道夫品牌以及我们现有的历史病位",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 31,
+    "start": 164.7,
+    "end": 170.7,
+    "text": "然后包括长期的这个侧口工作策略的话就是二零二八到二零二九年的话",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 32,
+    "start": 170.7,
+    "end": 173.1,
+    "text": "是希望能推动可持续的业绩增长",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 33,
+    "start": 173.1,
+    "end": 174.14,
+    "text": "就像刚才提到的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 34,
+    "start": 174.14,
+    "end": 180.06,
+    "text": "是不想看到只有客房收入一家的股大",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 35,
+    "start": 180.06,
+    "end": 185.66,
+    "text": "所以我们也是希望做所有的业绩能够百花齐放",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 36,
+    "start": 185.66,
+    "end": 190.7,
+    "text": "最终目标我们只想在长期的策略重点中",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 37,
+    "start": 190.7,
+    "end": 197.47,
+    "text": "是能在平均房价上能够超过半档的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 38,
+    "start": 197.47,
+    "end": 198.43,
+    "text": "所以如果我们想看",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 39,
+    "start": 198.43,
+    "end": 199.71,
+    "text": "短续的短续的短续",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 40,
+    "start": 199.71,
+    "end": 202.77,
+    "text": "我们会短续的短续的短续",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 41,
+    "start": 202.77,
+    "end": 205.89,
+    "text": "short term, this is kind of key area I just point out",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 42,
+    "start": 205.89,
+    "end": 207.49,
+    "text": "short term, how I'm going to improve",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 43,
+    "start": 207.87,
+    "end": 210.67,
+    "text": "so our index, service index, frankly speaking",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 44,
+    "start": 210.67,
+    "end": 213.93,
+    "text": "very much more than our even average",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 45,
+    "start": 213.93,
+    "end": 215.97,
+    "text": "also citric booking.com",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 46,
+    "start": 215.97,
+    "end": 217.13,
+    "text": "over our numbers are",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 47,
+    "start": 217.13,
+    "end": 217.85,
+    "text": "when we're showing there",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 48,
+    "start": 217.85,
+    "end": 220.74,
+    "text": "we really need to improve our service standards",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 49,
+    "start": 220.74,
+    "end": 223.18,
+    "text": "also re-establish our luxury culture",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 50,
+    "start": 223.18,
+    "end": 226.5,
+    "text": "and service in our overall service and product",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 51,
+    "start": 226.5,
+    "end": 229.26,
+    "text": "when we are always discussing within team",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 52,
+    "start": 229.26,
+    "end": 230.78,
+    "text": "those philosophical weakness",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 53,
+    "start": 230.78,
+    "end": 232.6,
+    "text": "we have a great hardware",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 54,
+    "start": 232.6,
+    "end": 234.92,
+    "text": "but software and product we've still need to improve",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 55,
+    "start": 234.92,
+    "end": 238.92,
+    "text": "然后每个部队都必须要在每个部队上",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 56,
+    "start": 238.92,
+    "end": 241.7,
+    "text": "然后我们必须作为团队的团队",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 57,
+    "start": 241.98,
+    "end": 244.18,
+    "text": "我们把团队放在前面",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 58,
+    "start": 244.18,
+    "end": 246.48,
+    "text": "然后这些就必须成功了",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 59,
+    "start": 246.48,
+    "end": 250.23,
+    "text": "所以这些是我们需要调整的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 60,
+    "start": 250.23,
+    "end": 254.35,
+    "text": "所以对于短期的我们一些服务标准除了上面列举的话",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 61,
+    "start": 254.35,
+    "end": 256.05,
+    "text": "尤其是我们目前看到",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 62,
+    "start": 256.05,
+    "end": 257.35,
+    "text": "不管是协丛也好",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 63,
+    "start": 257.35,
+    "end": 261.25,
+    "text": "或者其他一些网上的评价也好",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 64,
+    "start": 261.25,
+    "end": 264.55,
+    "text": "我们是整体会低于对低于",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 65,
+    "start": 264.55,
+    "end": 268.23,
+    "text": "一個是大中華人去的水平,一個是地獄競爭對手的水平",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 66,
+    "start": 268.23,
+    "end": 273.27,
+    "text": "這也是我們目前短期內所重要關注的一個工作重點",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 67,
+    "start": 299.2,
+    "end": 302.77,
+    "text": "Ctrip score, and this is an Expedia booking.com score",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 68,
+    "start": 302.77,
+    "end": 304.71,
+    "text": "completely all the Wightland hotel.",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 69,
+    "start": 304.71,
+    "end": 307.61,
+    "text": "If you look at that, we are overall very low.",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 70,
+    "start": 307.61,
+    "end": 310.28,
+    "text": "So this is kind of objective point of view.",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 71,
+    "start": 310.28,
+    "end": 312.69,
+    "text": "The quality is not really good.",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 72,
+    "start": 312.69,
+    "end": 315.49,
+    "text": "所以上面這個表格引導看來是我們",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 73,
+    "start": 315.49,
+    "end": 319.07,
+    "text": "對於在此而言的一個服務質量的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 74,
+    "start": 319.07,
+    "end": 320.57,
+    "text": "一個衡量標準",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 75,
+    "start": 320.57,
+    "end": 323.27,
+    "text": "那整體來看其實我們是低於",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 76,
+    "start": 323.27,
+    "end": 325.37,
+    "text": "這個大中華去平均值的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 77,
+    "start": 325.37,
+    "end": 327.07,
+    "text": "尤其是第一季度",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 78,
+    "start": 327.07,
+    "end": 330.97,
+    "text": "那目前來到26年的5月份",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 79,
+    "start": 330.97,
+    "end": 334.37,
+    "text": "因為我們目前的值還是有所增長的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 80,
+    "start": 334.37,
+    "end": 337.97,
+    "text": "但是這個增長幅度其實也不是我們想要看到的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 81,
+    "start": 337.97,
+    "end": 342.75,
+    "text": "所以這是未來我們著重加強的一個服務工作重點",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 82,
+    "start": 342.75,
+    "end": 346.35,
+    "text": "然後下面的這個表格就是在各種社交媒體上的一個評分",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 83,
+    "start": 346.35,
+    "end": 349.95,
+    "text": "這些外談酒店在我們各種境對圈裡面",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 84,
+    "start": 349.95,
+    "end": 353.75,
+    "text": "我們其實也不是佔一個良好的一個狀態",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 85,
+    "start": 353.75,
+    "end": 356.75,
+    "text": "以及包括這些境外的一些預定的需要",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 86,
+    "start": 356.75,
+    "end": 360.55,
+    "text": "所以這兩塊是我們目前要在短期加強",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 87,
+    "start": 360.55,
+    "end": 364.55,
+    "text": "要更下功夫的两个工作终点",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 88,
+    "start": 364.55,
+    "end": 371.59,
+    "text": "您可以记住,在两年后,我们的困境和经济相互相互的数据,",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 89,
+    "start": 371.59,
+    "end": 403.29,
+    "text": "现在我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的质量在市场上,我们的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 90,
+    "start": 403.29,
+    "end": 409.29,
+    "text": "這個在市場上的知名度以及包括更重要是我們這個地理位置的一個優勢",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 91,
+    "start": 409.29,
+    "end": 414.29,
+    "text": "那如果說在未來的某一天市場的需求不是那麼強勁了",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 92,
+    "start": 414.29,
+    "end": 417.73,
+    "text": "那可能對於我們酒店的衝擊是最大的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 93,
+    "start": 434.42,
+    "end": 439.13,
+    "text": "包括那些文章",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 94,
+    "start": 439.13,
+    "end": 442.13,
+    "text": "我們也經常體驗的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 95,
+    "start": 442.13,
+    "end": 445.7,
+    "text": "我們有那些團隊可以改變",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 96,
+    "start": 445.7,
+    "end": 447.7,
+    "text": "所以這",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 97,
+    "start": 447.7,
+    "end": 449.7,
+    "text": "不需要大規模",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 98,
+    "start": 449.7,
+    "end": 451.7,
+    "text": "但是我們會告訴",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 99,
+    "start": 451.7,
+    "end": 452.7,
+    "text": "我們團隊的總理",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 100,
+    "start": 452.7,
+    "end": 453.7,
+    "text": "我們必須聘用",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 101,
+    "start": 453.7,
+    "end": 454.7,
+    "text": "我們的團隊",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 102,
+    "start": 454.7,
+    "end": 455.7,
+    "text": "和工具團隊",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 103,
+    "start": 455.7,
+    "end": 456.94,
+    "text": "去改變那些",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 104,
+    "start": 456.94,
+    "end": 459.63,
+    "text": "然後真的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 105,
+    "start": 459.63,
+    "end": 461.63,
+    "text": "我們需要保持",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 106,
+    "start": 461.63,
+    "end": 462.63,
+    "text": "很重要的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 107,
+    "start": 462.63,
+    "end": 463.63,
+    "text": "所以那些歷史",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 108,
+    "start": 463.63,
+    "end": 464.63,
+    "text": "所有的味道",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 109,
+    "start": 464.63,
+    "end": 471.15,
+    "text": "目前我們根據今年的冰客投訴的記錄以及我們在網上課評的這個返回來看",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 110,
+    "start": 471.15,
+    "end": 474.46,
+    "text": "大概百分之四十的反映的問題",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 111,
+    "start": 474.46,
+    "end": 476.46,
+    "text": "其實我們在這段時間中",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 112,
+    "start": 476.46,
+    "end": 477.46,
+    "text": "我們在這段時間中",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 113,
+    "start": 477.46,
+    "end": 478.46,
+    "text": "我們在這段時間中",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 114,
+    "start": 478.46,
+    "end": 479.46,
+    "text": "我們在這段時間中",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 115,
+    "start": 479.46,
+    "end": 480.46,
+    "text": "我們在這段時間中",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 116,
+    "start": 480.46,
+    "end": 481.46,
+    "text": "我們在這段時間中",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 117,
+    "start": 481.46,
+    "end": 482.46,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 118,
+    "start": 482.46,
+    "end": 483.46,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 119,
+    "start": 483.46,
+    "end": 484.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 120,
+    "start": 484.71,
+    "end": 485.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 121,
+    "start": 485.71,
+    "end": 486.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 122,
+    "start": 486.71,
+    "end": 487.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 123,
+    "start": 487.71,
+    "end": 488.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 124,
+    "start": 488.71,
+    "end": 489.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 125,
+    "start": 489.71,
+    "end": 490.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 126,
+    "start": 490.71,
+    "end": 491.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 127,
+    "start": 491.71,
+    "end": 492.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 128,
+    "start": 492.71,
+    "end": 493.71,
+    "text": "我們在這段時間",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 129,
+    "start": 493.71,
+    "end": 498.47,
+    "text": "40%的反映的问题其实是我们一些硬件上的问题",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 130,
+    "start": 498.47,
+    "end": 502.27,
+    "text": "总军也会跟客房以及工程部",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 131,
+    "start": 502.27,
+    "end": 508.23,
+    "text": "去更关注如何提高我们硬件上的设施设备",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 132,
+    "start": 508.23,
+    "end": 514.03,
+    "text": "然后让客人能在入住期间减少这些硬件上的问题",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 133,
+    "start": 514.03,
+    "end": 517.03,
+    "text": "尤其上面提到的比如说漏水或者是有味道",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 134,
+    "start": 517.03,
+    "end": 520.91,
+    "text": "或者是一些门锁或者是一些其他的硬件的问题",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 135,
+    "start": 520.91,
+    "end": 524.17,
+    "text": "So this is a meeting.",
+    "lang": "latin_unknown",
+    "confidence": 1.0
+  },
+  {
+    "id": 136,
+    "start": 524.17,
+    "end": 525.77,
+    "text": "So before we talk about meeting,",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 137,
+    "start": 525.77,
+    "end": 528.83,
+    "text": "the first short term is a really basic experience.",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 138,
+    "start": 528.83,
+    "end": 530.47,
+    "text": "When we go to the hotel,",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 139,
+    "start": 530.47,
+    "end": 531.65,
+    "text": "first welcoming,",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 140,
+    "start": 531.65,
+    "end": 532.85,
+    "text": "helping my bags,",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 141,
+    "start": 532.85,
+    "end": 533.55,
+    "text": "checking process,",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 142,
+    "start": 533.55,
+    "end": 536.42,
+    "text": "when I go to the room that everything is ready,",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 143,
+    "start": 536.42,
+    "end": 538.62,
+    "text": "those kind of experiences we need to deliver.",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 144,
+    "start": 538.62,
+    "end": 540.32,
+    "text": "So that's why short term I focus on that.",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 145,
+    "start": 540.32,
+    "end": 546.51,
+    "text": "所以在我们看这个中期的目标来说的话",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 146,
+    "start": 546.51,
+    "end": 548.41,
+    "text": "其实刚才我们看到的这些转型目标",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 147,
+    "start": 548.41,
+    "end": 550.31,
+    "text": "都是最基础我们需要去做的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 148,
+    "start": 550.31,
+    "end": 552.21,
+    "text": "比如说客人去办理入住",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 149,
+    "start": 552.21,
+    "end": 556.51,
+    "text": "以及包括我们房间提供的准备的程度",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 150,
+    "start": 556.51,
+    "end": 562.39,
+    "text": "这些都是最基础最基础我们应该去提供的客人的一些产品和服务标准",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 151,
+    "start": 562.39,
+    "end": 566.39,
+    "text": "So meet them like a stop from this end of this year",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 152,
+    "start": 566.39,
+    "end": 568.57,
+    "text": "All the product service we are discussing",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 153,
+    "start": 568.57,
+    "end": 572.35,
+    "text": "We really need to focus on our brand and as a heritage story",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 154,
+    "start": 572.35,
+    "end": 576.38,
+    "text": "As I mentioned here, this is our my short vision",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 155,
+    "start": 576.38,
+    "end": 578.38,
+    "text": "That everything we are talking about",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 156,
+    "start": 578.38,
+    "end": 582.38,
+    "text": "Our product and service should be rooted in our heritage and order",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 157,
+    "start": 582.38,
+    "end": 615.62,
+    "text": "然后我们发行练习的练习员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员员",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 158,
+    "start": 615.62,
+    "end": 619.52,
+    "text": "能给客人提供我们应有的这些服务标准",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 159,
+    "start": 619.52,
+    "end": 621.52,
+    "text": "以及应该呈现的这些文化",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 160,
+    "start": 621.52,
+    "end": 625.52,
+    "text": "而且包括刚才一直提到说我们持续性的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 161,
+    "start": 625.52,
+    "end": 627.52,
+    "text": "军方性的业绩发展",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 162,
+    "start": 627.52,
+    "end": 630.02,
+    "text": "不仅仅是要一家独大",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 163,
+    "start": 630.02,
+    "end": 633.02,
+    "text": "希望能各个方面百化齐放的这样一个状态",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 164,
+    "start": 633.02,
+    "end": 638.02,
+    "text": "我们现在做了很漂亮的联系",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 165,
+    "start": 638.02,
+    "end": 642.02,
+    "text": "所以我们需要看着我们的价格",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 166,
+    "start": 642.02,
+    "end": 644.3,
+    "text": "我认为我们有很多联系的联系",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 167,
+    "start": 644.3,
+    "end": 646.34,
+    "text": "很多东西都可以聚聚",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 168,
+    "start": 646.34,
+    "end": 648.14,
+    "text": "根据这种组织",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 169,
+    "start": 648.14,
+    "end": 679.24,
+    "text": "也让业主方在业主方与职业企业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业业",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 170,
+    "start": 679.24,
+    "end": 681.24,
+    "text": "So, maximum 10 minutes",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 171,
+    "start": 681.24,
+    "end": 681.74,
+    "text": "Faster, right?",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 172,
+    "start": 681.74,
+    "end": 682.24,
+    "text": "Yes",
+    "lang": "latin_unknown",
+    "confidence": 1.0
+  },
+  {
+    "id": 173,
+    "start": 682.24,
+    "end": 688.24,
+    "text": "Ok, so this is a long term that I want to really be up to the ramp too by driving AI for the future",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 174,
+    "start": 688.24,
+    "end": 694.95,
+    "text": "And then our positioning is really the branch of our luxury, our heritage culture destination",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 175,
+    "start": 694.95,
+    "end": 697.86,
+    "text": "And then our sustainable growth, I just mentioned that",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 176,
+    "start": 697.86,
+    "end": 700.86,
+    "text": "And the focus five star, I don't think we can have it next year",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 177,
+    "start": 700.86,
+    "end": 706.23,
+    "text": "But I think in 2028 and 2029, we may try once we really change our culture",
+    "lang": "en",
+    "confidence": 1.0
+  },
+  {
+    "id": 178,
+    "start": 706.23,
+    "end": 710.39,
+    "text": "所以長期目標除了上面提到的幾點",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 179,
+    "start": 710.39,
+    "end": 713.59,
+    "text": "最重要的是最後一點這個福布斯五星標準",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 180,
+    "start": 713.59,
+    "end": 715.99,
+    "text": "以我們目前的這個情況來看",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 181,
+    "start": 715.99,
+    "end": 720.19,
+    "text": "可能我們明天拿福布斯五星也是有一定困難的",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 182,
+    "start": 720.19,
+    "end": 722.69,
+    "text": "所以希望在未來在二零二八年",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 183,
+    "start": 722.69,
+    "end": 727.62,
+    "text": "我們當時一些的這個技術都已經大牢的話",
+    "lang": "zh",
+    "confidence": 1.0
+  },
+  {
+    "id": 184,
+    "start": 727.62,
+    "end": 730.02,
+    "text": "我們希望能拿到這個五星的福布標準",
+    "lang": "zh",
+    "confidence": 1.0
+  }
+]
