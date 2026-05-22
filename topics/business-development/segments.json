@@ -1,12 +1,13 @@
 [
   {
     "id": 1,
-    "start": 4.85,
+    "start": 5.5,
     "end": 50.71,
     "en": "Okay so this is occupancy of April, 89, 88. Our index MPI is 103, and our index of average rate is 109. So 103, 109, and then our RevPAR index is 113. So 17% higher. RevPAR number two. Actually was a really wonderful period.",
     "zh": "好的，这是4月份的入住率，89%、88%。我们的市场渗透率指数（MPI）是103，平均房价指数是109。所以是103、109，然后我们的RevPAR（每间可售客房收入）指数是113。所以高出了17%。RevPAR排名第二。这确实是一段非常棒的时期。",
     "audio_file": "sentence_clips/001.mp3",
-    "clip_duration": 46.11
+    "clip_duration": 46.05,
+    "clip_text": "Okay, so this is our frequency of very poor, 89, 88, or index Mk is 103, or index of all average rate is 109, so 103 and 109, and then our RAPA index is 113, so 17% higher as a RAPA number, so every was a really wonderful period. So, the RAPA number 2 is really meaningful."
   },
   {
     "id": 2,
@@ -15,25 +16,28 @@
     "en": "May so far also now, MPI 102, average 106, and then so far now RevPAR also 109, and ranking number three, which is on right track. Good thing is the ranking changes, now so far number two, which is higher than any other four hotels in this comp set.",
     "zh": "5月到目前为止，MPI是102，平均房价指数是106，然后到目前为止RevPAR也是109，排名第三，正处于正确的轨道上。好消息是排名发生了变化，到目前为止排在第二位，这高于这个竞争群组中的其他四家酒店。",
     "audio_file": "sentence_clips/002.mp3",
-    "clip_duration": 34.87
+    "clip_duration": 34.87,
+    "clip_text": "Manual checked English male range for segment 02"
   },
   {
     "id": 3,
-    "start": 85.35,
-    "end": 114.72,
+    "start": 93.49,
+    "end": 113.98,
     "en": "This is last year position. This is this year position. Last year position, we are here under a little bit of lower occupancy and lower average rate. Now a little bit higher on average rate and higher occupancy. But in the future we need to go this side to catch up this Peninsula. So we wanted to keep driving up to this track for the future.",
     "zh": "这是去年的位置。这是今年的位置。去年的位置，我们在这里，入住率稍低，平均房价也较低。现在平均房价略高，入住率也更高。但在未来我们需要向这边走，去追赶半岛酒店。所以我们希望在未来继续沿着这条轨道向上提升。",
     "audio_file": "sentence_clips/003.mp3",
-    "clip_duration": 29.6
+    "clip_duration": 22.52,
+    "clip_text": "This is a last year position This is this year position Last year position we are here on the little bit of lower occupancy and the lower average rate now a little bit higher on average rate and higher occupancy but in the future we need to go this side to catch up this peninsula so we want to keep driving up to this point"
   },
   {
     "id": 4,
-    "start": 138.7,
+    "start": 138.74,
     "end": 149.5,
     "en": "Sales related, now contracted room night is similar to last year, which is on right track, but a little bit constraint on this only average rate though.",
     "zh": "销售方面，目前的协议客房夜数与去年相似，这处于正确的轨道上，不过仅仅在平均房价上受到了一些限制。",
     "audio_file": "sentence_clips/004.mp3",
-    "clip_duration": 11.05
+    "clip_duration": 11.21,
+    "clip_text": "It says now a contracted room life is similar to last year, which is on right track, but a little bit concerned with this only average right note."
   },
   {
     "id": 5,
@@ -42,43 +46,48 @@
     "en": "Constraint our leisure segment, our CD team is doing great job on different kind of promotion joining. Keep having our average rate and occupancy higher up, which is also a great job. We are now doing the marketing team too.",
     "zh": "尽管我们的休闲板块受限，我们的客户开发（CD）团队在参与各类促销活动方面做得很出色。不断将我们的平均房价和入住率拉高，这也是一项很棒的工作。我们现在的市场团队也在发力。",
     "audio_file": "sentence_clips/005.mp3",
-    "clip_duration": 14.89
+    "clip_duration": 15.28,
+    "clip_text": "Constraint our leisure segments, our CD team is doing great job on different kind of promotion joining, keep having our average rate in occupancy high arena, which is also a great job. We are now doing the market team."
   },
   {
     "id": 6,
-    "start": 171.78,
-    "end": 197.22,
+    "start": 184.05,
+    "end": 196.54,
     "en": "Mo Li is a similar production as last year and this year, and we are expecting around 10% more from this Mo Li production. And also average rate is around 3,000 RMB, which is also good positioning as a long term.",
     "zh": "茉莉（智慧）今年和去年的产量相似，我们预期茉莉的产量会有大约10%的增长。此外，平均房价在3000人民币左右，作为长期来看这也是一个很好的定位。",
     "audio_file": "sentence_clips/006.mp3",
-    "clip_duration": 25.68
+    "clip_duration": 13.32,
+    "clip_text": "Morlin is a similar production as last year in this year and we are expecting around 10% more from this Morlin production and also average rate is around 3000 RMB which is also good positioning as a long term"
   },
   {
     "id": 7,
-    "start": 220.15,
+    "start": 221.19,
     "end": 243.55,
     "en": "GRC, I think it is good to see that only the average May we have GRC production is 1,800. Good balance on this last two weeks, especially this Sunday, Monday we also have a good group confirmed. So we are going to have driving our average rate and then also overall RGI this period to keep this our ranking and then RGI position.",
     "zh": "团队客房（GRC）方面，我觉得很高兴看到仅仅在5月平均我们的团队产量就有1800。在过去两周保持了良好的平衡，特别是在这个周日、周一，我们也确认了一个优质的团队。因此，我们将在这一时期拉动我们的平均房价以及整体的收入生成指数（RGI），以保持我们的排名和RGI位置。",
     "audio_file": "sentence_clips/007.mp3",
-    "clip_duration": 23.64
+    "clip_duration": 23.54,
+    "clip_text": "GRC, I think it's good to see that only this evolution. So maybe we have GRC production in 1800, good balance on these last two weeks, especially this Sunday, Monday, we also have a good group confirm. So we are going to have the driving hour of which rate and then also overall hard year on this period to keep this our ranking and our job position."
   },
   {
     "id": 8,
-    "start": 248.03,
-    "end": 288.23,
+    "start": 271.11,
+    "end": 280.11,
     "en": "June, our June total is 2,200. Especially we have a big Max Mara group. All the CEO, corporate team is coming fly from US to stay with us. We are now concentrating on this group to improve our overall F&B revenue as well. And then now there's room night 2,200 is well balanced on this June to keep our overall result achievement as well.",
     "zh": "6月，我们6月份的总量是2200。特别是我们有一个大型的Max Mara团队。所有的首席执行官、公司高管团队都将从美国飞来入住我们酒店。我们现在正专注于这个团队，以期同时提高我们整体的餐饮收入。现在这2200个间夜在6月份分布得非常均衡，有助于我们保持整体的业绩达成。",
     "audio_file": "sentence_clips/008.mp3",
-    "clip_duration": 40.44
+    "clip_duration": 9.43,
+    "clip_text": "all the CEO corporate team has come from US to stay with us We are now constantly on this group to improve our overall FMB revenue as well"
   },
   {
     "id": 9,
-    "start": 320.66,
+    "start": 321.76,
     "end": 349.1,
     "en": "May segment wise, last year same time comparison. Last year is 65%, 5,200 room night with average rate 2,404. But this year is a little bit 8% higher on the book, 5,800, 600 room night more. And then average rate also around 130 RMB higher. So position of the May is also well balanced. So now half, full year forecast we are now looking at that 97 million ahead, and half million, 85 million ahead. Sorry, this is wrong. But this is on the book, right? This one? Ah, this is different one. Forecast is 200 million versus budget is 178 million. So it's around 14 million ahead.",
     "zh": "就5月份各细分市场而言，与去年同期相比。去年是65%的入住率，5200个间夜，平均房价2404。但今年账面预订量高出了大概8%，达到了5800，多了600个间夜。然后平均房价也高出了约130人民币。所以5月份的定位也是非常均衡的。所以现在，看全年的预测，我们现在看到超出了9700万，以及超出了8500万。抱歉，这个错了。但这（指着PPT）是账面数据，对吧？这个？啊，这是另一个数据。预测收入是2亿，而预算是1.78亿。所以大约超出了1400万。",
     "audio_file": "sentence_clips/009.mp3",
-    "clip_duration": 28.68
+    "clip_duration": 28.19,
+    "clip_text": "with average rates 2004, but this year is already 8% higher and the look 5,800, 600 room than more and then every rate also around 130 RMB higher. So the position of the May is also well balanced. So now half a full year forecast we are now looking at that 97 million hats and half million 85 million hats on our floor."
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "en": "Just a few points is now we have this long-term average rate is 1,400. Last year 1,600. I think this one we may need to have a look into detail. And then corporate ADR is 1,400 to 1,500. So 1,500 means corporate lowest one among all of other segment. So corporate room night and overall average rate, which is higher than last year, we may need to relook into detail. Do we really need it or do we really need to shift other segment or not.",
     "zh": "只有几点要提的是，现在我们的长住平均房价是1400。去年是1600。我认为这一点我们可能需要仔细研究一下。然后公司协议价（ADR）是1400到1500。所以1500意味着公司客户是所有其他细分市场中价格最低的。因此，面对比去年更高的公司间夜量和整体平均房价，我们可能需要重新深入研究细节。我们真的需要这类生意吗，或者我们到底需不需要将重心转移到其他细分市场。",
     "audio_file": "sentence_clips/010.mp3",
-    "clip_duration": 45.3
+    "clip_duration": 45.3,
+    "clip_text": "Manual checked English male range for segment 10"
   },
   {
     "id": 11,
@@ -96,16 +106,18 @@
     "en": "Actually this Ctrip... please of my apologize, I don't fully understand other this chart. Let me actually read it and then digest later.",
     "zh": "实际上携程这个……请接受我的道歉，我没有完全看懂这张图表。让我先实际看一下，然后再消化。",
     "audio_file": "sentence_clips/011.mp3",
-    "clip_duration": 23.85
+    "clip_duration": 23.85,
+    "clip_text": "Manual checked English male range for segment 11"
   },
   {
     "id": 12,
-    "start": 462.88,
-    "end": 543.8,
+    "start": 466.44,
+    "end": 543.22,
     "en": "Catering overall, by May YTD, we are also having a little bit 3.4... total overall we are around... this is higher by May YTD, right? Currently... yeah to the end of April is ahead, May is a bit... Okay. So until April YTD we are higher. But May also, May also we are looking at the 4.3 million, but 3.8 million we are higher. But we see that from June our forecast compared to budget is a little bit behind now. Mainly we need to improve our wedding section, which is our target is 20 million on this year. But at the moment our definite of this second half is a little bit weaker than budget. So Jerry already working with the marketing team and then banquet service team how we can improve this wedding number to catch up this overall wedding budget and then catering budget.",
     "zh": "餐饮总体来看，截至5月（年初至今），我们也稍微有点3.4……整体上我们大约在……截至5月的数据是高出来的，对吧？（旁人插话：目前……是的，到4月底是超前的，5月稍微……）好的。所以截至4月，我们的数据更高。但5月也是，5月我们预期是430万，但380万我们更高。但我们看到从6月开始，我们的预测与预算相比现在有点落后了。主要我们需要提升婚宴板块，今年的目标是2000万。但目前我们在下半年的确认订单比预算要弱一点。所以Jerry已经开始与市场团队以及宴会服务团队合作，研究如何提高婚宴的数量，以赶上整体的婚宴预算和餐饮预算。",
     "audio_file": "sentence_clips/012.mp3",
-    "clip_duration": 81.16
+    "clip_duration": 78.81,
+    "clip_text": "K-3 overall by May, YTD, we are also having budget 3.0, total overall we are around, K-3 overall is higher by May, May YTD. For the yesterday, April is ahead, late is ahead. Okay, so now until April YTD we are higher, but May also, May also now we are looking at 4.3 million, budget 3.8 million we are higher, We see that from June, our focus compared to budget is a little bit behind now. So maybe we need to improve our wedding section, which is our target is 20 million on this year, but the moment our definite of this second half is a little bit weaker than budget. So I think I'm already working with the marketing team and then the banking service team how we can improve this wedding number to catch up this overall wedding budget and then catch"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "en": "We have many also artwork about our promotion. We also had another bartender promotion at this May. Yes, this one I will just skip it overall.",
     "zh": "我们还有很多关于促销的宣传物料。我们在今年5月还有另一场调酒师客座推广活动。是的，这个我就整体跳过了。",
     "audio_file": "sentence_clips/013.mp3",
-    "clip_duration": 34.59
+    "clip_duration": 34.59,
+    "clip_text": "Manual checked English male range for segment 13"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "en": "Media clipping, advertisement total our impact is 1.2 million and overall PR impact is 3.8 million. And we are going to more focus on each of the venue promotion and seasonal promotion, special day promotion like Children's Day, Father's Day or 520, or also like our mooncake, etc., using this media release.",
     "zh": "媒体简报、广告，我们的总曝光影响力是120万，整体公关影响力是380万。接下来我们将利用这些媒体发布，更加聚焦于各个场地的推广以及季节性推广、特殊节日推广，比如儿童节、父亲节或520，或者也像我们的月饼等。",
     "audio_file": "sentence_clips/014.mp3",
-    "clip_duration": 38.74
+    "clip_duration": 38.74,
+    "clip_text": "Manual checked English male range for segment 14"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "en": "This is about some online promotion. Online from Dianping, WeChat and also live streaming, TikTok, revenue dropped than last year. Even though our April, other revenue is more than budget, but those digital production is lower. So we need to improve this digital production by refining product. At the moment, Cathy and our F&B team renew all the product, so we are going to drive it up.",
     "zh": "这是关于一些线上推广。来自大众点评、微信以及抖音直播的线上收入比去年下降了。尽管我们4月份的其他收入超过了预算，但这些数字渠道的产量降低了。所以我们需要通过打磨产品来提升这个数字渠道的产量。目前，Cathy和我们的餐饮团队正在更新所有产品，所以我们将把它提升上去。",
     "audio_file": "sentence_clips/015.mp3",
-    "clip_duration": 41.87
+    "clip_duration": 41.87,
+    "clip_text": "Manual checked English male range for segment 15"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "en": "Yeah, I think the overall CMD team has done a great job on first 5 months. Looks like they already beat our budget. We continue to drive our sustainable revenue performance, not only rooms, F&B and others.",
     "zh": "是的，我认为整个CMD团队（销售与市场团队）在前5个月做得非常出色。看起来他们已经打破了我们的预算目标。我们将继续推动我们可持续的收入业绩增长，不仅是客房，还包括餐饮和其他方面。",
     "audio_file": "sentence_clips/016.mp3",
-    "clip_duration": 9.77
+    "clip_duration": 9.77,
+    "clip_text": "Manual checked English male range for segment 16"
   },
   {
     "id": 17,
@@ -150,6 +166,7 @@
     "en": "We will test this PPT next time... Yeah, they will be similar to you on again or not.",
     "zh": "我们下次会测试一下这个PPT……是的，看看情况是不是还像现在这样。",
     "audio_file": "sentence_clips/017.mp3",
-    "clip_duration": 61.18
+    "clip_duration": 61.18,
+    "clip_text": "Manual checked English male range for segment 17"
   }
 ]
