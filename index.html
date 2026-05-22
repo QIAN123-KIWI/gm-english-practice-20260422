@@ -3,30 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0d5b61">
-  <title>外籍总经理讲话练习</title>
-  <link rel="preload" href="full.mp3" as="audio">
+  <meta name="theme-color" content="#7a4d20">
+  <title>5.20 业主会总经理英文讲话练习</title>
   <style>
     :root {
-      --bg: #f3ede3;
-      --bg-deep: #e8dcc9;
-      --ink: #1d2430;
-      --muted: #66706c;
-      --line: rgba(23, 45, 49, 0.12);
+      --bg: #f4efe7;
+      --bg-deep: #e7dccd;
+      --ink: #1f2933;
+      --muted: #6d665e;
+      --line: rgba(92, 66, 39, 0.16);
       --panel: rgba(255, 255, 255, 0.9);
-      --panel-strong: rgba(255, 255, 255, 0.97);
-      --accent: #0d5b61;
-      --accent-deep: #093d42;
-      --accent-soft: rgba(13, 91, 97, 0.1);
-      --tag: #eef5f4;
-      --shadow: 0 18px 44px rgba(30, 36, 48, 0.1);
+      --panel-strong: rgba(255, 255, 255, 0.98);
+      --accent: #7a4d20;
+      --accent-deep: #432914;
+      --accent-soft: rgba(122, 77, 32, 0.1);
+      --tag: #f5eadb;
+      --shadow: 0 18px 44px rgba(51, 40, 30, 0.11);
       --radius: 24px;
     }
 
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       min-height: 100vh;
@@ -34,9 +31,9 @@
       color: var(--ink);
       font-family: "Aptos", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
       background:
-        radial-gradient(circle at 100% 0%, rgba(13, 91, 97, 0.16), transparent 26%),
-        radial-gradient(circle at 0% 100%, rgba(206, 172, 122, 0.18), transparent 32%),
-        linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 34%, #f8f4ee 100%);
+        radial-gradient(circle at 100% 0%, rgba(122, 77, 32, 0.18), transparent 28%),
+        radial-gradient(circle at 0% 100%, rgba(26, 54, 54, 0.14), transparent 34%),
+        linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 38%, #fbf8f2 100%);
     }
 
     body::before {
@@ -52,8 +49,8 @@
     }
 
     .shell {
-      width: min(980px, calc(100% - 24px));
-      margin: 16px auto 32px;
+      width: min(1040px, calc(100% - 24px));
+      margin: 16px auto 34px;
       position: relative;
       z-index: 1;
     }
@@ -61,7 +58,7 @@
     .hero, .sentence, .tips {
       background: var(--panel);
       backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.72);
       box-shadow: var(--shadow);
     }
 
@@ -70,7 +67,7 @@
       overflow: hidden;
       padding: 30px 28px 24px;
       border-radius: 30px;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(252, 252, 250, 0.92));
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(252, 250, 246, 0.92));
     }
 
     .hero::before {
@@ -78,43 +75,66 @@
       position: absolute;
       inset: 0 0 auto 0;
       height: 6px;
-      background: linear-gradient(90deg, rgba(13, 91, 97, 0.96), rgba(13, 91, 97, 0.14));
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      right: -52px;
-      top: -74px;
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(13, 91, 97, 0.16), rgba(13, 91, 97, 0));
+      background: linear-gradient(90deg, rgba(122, 77, 32, 0.96), rgba(122, 77, 32, 0.16));
     }
 
     .eyebrow {
       margin: 0 0 10px;
       font-size: 13px;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: 0.12em;
       color: var(--accent);
     }
 
     h1 {
       margin: 0 0 14px;
-      font-size: clamp(30px, 4vw, 44px);
+      font-size: clamp(30px, 4vw, 46px);
       line-height: 1.08;
       letter-spacing: -0.03em;
     }
 
-    .hero-meta {
+    .hero-copy {
+      max-width: 800px;
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
+    }
+
+    .tabs, .hero-meta, .controls {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-bottom: 18px;
+      align-items: center;
     }
 
-    .meta-chip {
+    .tab, .primary-btn, .doc-link {
+      appearance: none;
+      border: 0;
+      cursor: pointer;
+      font: inherit;
+      text-decoration: none;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, color 0.18s ease;
+    }
+
+    .tab:hover, .primary-btn:hover, .doc-link:hover { transform: translateY(-1px); }
+
+    .tab {
+      padding: 10px 15px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.76);
+      color: var(--accent-deep);
+      font-weight: 800;
+    }
+
+    .tab.active {
+      background: linear-gradient(135deg, var(--accent), var(--accent-deep));
+      color: #fff;
+      box-shadow: 0 10px 24px rgba(92, 54, 22, 0.2);
+    }
+
+    .meta-chip, .doc-link {
       display: inline-flex;
       align-items: center;
       padding: 9px 13px;
@@ -123,51 +143,30 @@
       background: rgba(255, 255, 255, 0.84);
       color: var(--muted);
       font-size: 13px;
-      font-weight: 600;
+      font-weight: 700;
     }
 
-    .hero-copy {
-      max-width: 760px;
-      margin: 0 0 18px;
-      color: var(--muted);
-      font-size: 16px;
-      line-height: 1.85;
+    .doc-link {
+      color: var(--accent-deep);
+      background: var(--accent-soft);
     }
-
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
-    }
-
-    button {
-      appearance: none;
-      border: 0;
-      cursor: pointer;
-      font: inherit;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, color 0.18s ease;
-    }
-
-    button:hover { transform: translateY(-1px); }
-    button:active { transform: translateY(0); }
 
     .primary-btn {
       padding: 14px 24px;
       border-radius: 999px;
       background: linear-gradient(135deg, var(--accent), var(--accent-deep));
       color: #fff;
-      font-weight: 700;
+      font-weight: 800;
       font-size: 15px;
       letter-spacing: 0.01em;
-      box-shadow: 0 12px 28px rgba(13, 61, 66, 0.24);
+      box-shadow: 0 12px 28px rgba(92, 54, 22, 0.24);
     }
 
     .status {
       min-height: 22px;
       color: var(--muted);
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     .guide-note {
@@ -175,9 +174,9 @@
       margin: 16px 0 0;
       padding: 10px 14px;
       border-radius: 16px;
-      border: 1px solid rgba(13, 91, 97, 0.1);
+      border: 1px solid rgba(122, 77, 32, 0.12);
       background: rgba(255, 255, 255, 0.72);
-      color: #4e5c58;
+      color: #5d544b;
       font-size: 14px;
       line-height: 1.75;
     }
@@ -192,7 +191,7 @@
       padding: 18px 20px;
       border-radius: var(--radius);
       background: rgba(255, 255, 255, 0.72);
-      border: 1px dashed rgba(13, 91, 97, 0.16);
+      border: 1px dashed rgba(122, 77, 32, 0.18);
       color: var(--muted);
       font-size: 15px;
       line-height: 1.8;
@@ -203,8 +202,8 @@
       overflow: hidden;
       padding: 24px 22px 24px;
       border-radius: var(--radius);
-      border: 1px solid rgba(13, 91, 97, 0.08);
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 250, 249, 0.94));
+      border: 1px solid rgba(122, 77, 32, 0.08);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(250, 247, 240, 0.94));
       transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
     }
 
@@ -216,13 +215,13 @@
       bottom: 18px;
       width: 4px;
       border-radius: 999px;
-      background: linear-gradient(180deg, rgba(13, 91, 97, 0.94), rgba(13, 91, 97, 0.18));
+      background: linear-gradient(180deg, rgba(122, 77, 32, 0.94), rgba(122, 77, 32, 0.18));
     }
 
     .sentence.active {
-      border-color: rgba(13, 91, 97, 0.34);
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(236, 247, 245, 0.98));
-      box-shadow: 0 20px 42px rgba(13, 61, 66, 0.14);
+      border-color: rgba(122, 77, 32, 0.34);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 238, 223, 0.98));
+      box-shadow: 0 20px 42px rgba(92, 54, 22, 0.14);
     }
 
     .sentence-head {
@@ -248,11 +247,16 @@
       background: var(--accent-soft);
       color: var(--accent-deep);
       font-size: 14px;
-      font-weight: 700;
+      font-weight: 800;
       text-align: center;
     }
 
-    .sentence.active .clip-btn {
+    .clip-btn[disabled] {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .sentence.active .clip-btn:not([disabled]) {
       background: linear-gradient(135deg, var(--accent), var(--accent-deep));
       color: #fff;
     }
@@ -265,7 +269,7 @@
       background: var(--tag);
       color: var(--accent-deep);
       font-size: 13px;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: 0.02em;
     }
 
@@ -274,7 +278,7 @@
       color: var(--muted);
       letter-spacing: 0.04em;
       font-variant-numeric: tabular-nums;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     .copy-labels {
@@ -290,34 +294,34 @@
       padding: 6px 10px;
       border-radius: 999px;
       font-size: 12px;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: 0.08em;
       text-transform: uppercase;
     }
 
     .copy-label-en {
-      background: rgba(13, 91, 97, 0.1);
+      background: rgba(122, 77, 32, 0.1);
       color: var(--accent-deep);
     }
 
     .copy-label-zh {
-      background: rgba(105, 120, 114, 0.12);
-      color: #576460;
+      background: rgba(105, 96, 86, 0.12);
+      color: #5b554e;
     }
 
     .en {
       margin: 0;
       font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
-      font-size: clamp(24px, 3vw, 34px);
-      line-height: 1.42;
+      font-size: clamp(22px, 2.6vw, 31px);
+      line-height: 1.44;
       letter-spacing: 0.01em;
       word-break: break-word;
     }
 
     .zh {
       margin: 14px 0 0;
-      color: #55625e;
-      font-size: clamp(20px, 2.3vw, 22px);
+      color: #5b554e;
+      font-size: clamp(18px, 2.2vw, 21px);
       line-height: 1.82;
       font-weight: 500;
       word-break: break-word;
@@ -327,7 +331,7 @@
       margin-top: 22px;
       padding: 22px 22px 24px;
       border-radius: var(--radius);
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 249, 246, 0.94));
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(249, 246, 238, 0.94));
     }
 
     .tips h2 {
@@ -338,67 +342,49 @@
     .tips-list {
       margin: 0;
       padding-left: 22px;
-      color: #55615d;
+      color: #5b554e;
       line-height: 1.9;
       font-size: 15px;
     }
 
-    .tips-list li + li {
-      margin-top: 4px;
-    }
-
     @media (max-width: 760px) {
       .shell {
-        width: min(100% - 14px, 980px);
+        width: min(100% - 14px, 1040px);
         margin: 10px auto 24px;
       }
-
       .hero {
         padding: 22px 16px 18px;
         border-radius: 24px;
       }
-
       h1 {
         font-size: clamp(24px, 8vw, 34px);
         line-height: 1.14;
       }
-
       .hero-copy {
         font-size: 15px;
         line-height: 1.8;
       }
-
       .guide-note {
         display: block;
       }
-
       .sentence {
         padding: 18px 16px 18px;
         border-radius: 20px;
       }
-
       .sentence::before {
         top: 16px;
         bottom: 16px;
       }
-
-      .sentence-head {
-        gap: 10px;
-      }
-
       .left-controls {
         width: 100%;
       }
-
       .clip-btn {
         flex: 1 1 auto;
         min-width: 0;
       }
-
       .timecode {
         width: 100%;
       }
-
       .tips {
         padding: 18px 16px 20px;
         border-radius: 20px;
@@ -409,21 +395,17 @@
 <body>
   <main class="shell">
     <section class="hero">
-      <p class="eyebrow">总经理英文讲话练习页</p>
-      <h1>外籍总经理讲话练习</h1>
-      <div class="hero-meta">
-        <span class="meta-chip">网页轻量版，手机打开更快</span>
-        <span class="meta-chip">原音频范围 33:24-38:30</span>
-        <span class="meta-chip">练习总时长 05:06</span>
-      </div>
-      <p class="hero-copy">
-        先整段听一遍，再逐句模仿总经理的停顿、重音和语气。英文主文是练习核心，中文用于快速理解，不会盖过英文本身。
-      </p>
+      <p class="eyebrow">5.20 业主会 · 总经理英文讲话练习</p>
+      <h1 id="page-title">总经理英文讲话中英对照点播</h1>
+      <p class="hero-copy" id="topic-summary">选择专题后，可以整段听英文男声，也可以按 Word 段落逐段点播。</p>
+      <div class="tabs" id="tabs" aria-label="专题切换"></div>
+      <div class="hero-meta" id="meta"></div>
       <div class="controls">
-        <button class="primary-btn" id="play-full" type="button">播放整段英文原声</button>
-        <div class="status" id="status">页面加载中，马上为你准备逐句练习。</div>
+        <button class="primary-btn" id="play-full" type="button">播放本专题英文男声</button>
+        <a class="doc-link" id="doc-link" href="#" download>下载配套 Word 稿</a>
+        <div class="status" id="status">页面加载中，马上为你准备逐段练习。</div>
       </div>
-      <p class="guide-note">使用方法：点击上方按钮播放整段；点击每张卡片左上角“播放英文原句”按钮，即可播放该句。</p>
+      <p class="guide-note">使用方法：上方切换两个专题；点击“播放本专题英文男声”听完整英文版；点击每张卡片左上角按钮，点播对应段落男声英文。</p>
     </section>
 
     <section class="list" id="list" aria-live="polite">
@@ -433,51 +415,58 @@
     <section class="tips">
       <h2>练习建议</h2>
       <ol class="tips-list">
-        <li>先整段听一遍抓语气和结构，再逐句模仿停顿、重音和尾音。</li>
-        <li>逐句练时优先跟英文原句走，中文只在卡住时快速扫一眼。</li>
-        <li>同一句可以反复点播，练到语气顺、节奏稳，再切到下一句。</li>
+        <li>Word 适合看正式稿，网页适合反复点听男声英文。</li>
+        <li>先听整段抓汇报逻辑，再逐段模仿停顿、重音和尾音。</li>
+        <li>中文用于快速核对意思，练习时优先跟英文原声节奏走。</li>
       </ol>
     </section>
   </main>
 
   <script>
     const TEXT = {
-      playClip: "播放英文原句",
+      playClip: "播放英文原段",
+      noAudio: "无男声切片",
       labelZh: "中文理解",
-      statusLoading: "页面加载中，马上为你准备逐句练习。",
-      statusLoaded: (count) => `页面已加载完成，共 ${count} 句。先播放整段，再逐句点听。`,
+      statusLoading: "页面加载中，马上为你准备逐段练习。",
+      statusLoaded: (count, clips) => `页面已加载完成，共 ${count} 段，${clips} 段带男声切片。`,
       statusLoadFailed: "页面数据加载失败，请刷新重试。",
-      statusPlayingFull: "正在播放整段英文原声。",
-      statusPlayingClip: (id, range) => `正在播放第 ${String(id).padStart(2, "0")} 句英文原句 · ${range}`,
-      statusClipDone: (id) => `第 ${String(id).padStart(2, "0")} 句播放结束，可再次点击重播。`,
-      statusFullDone: "整段播放结束，可以继续逐句练习。",
+      statusPlayingFull: "正在播放本专题英文男声合集。",
+      statusPlayingClip: (id, range) => `正在播放第 ${String(id).padStart(2, "0")} 段英文男声 · ${range}`,
+      statusClipDone: (id) => `第 ${String(id).padStart(2, "0")} 段播放结束，可再次点击重播。`,
+      statusFullDone: "本专题英文男声播放结束，可以继续逐段练习。",
       statusPlayFailed: "当前音频暂时未能播放，请再点一次试试。"
     };
 
+    const tabs = document.getElementById("tabs");
+    const meta = document.getElementById("meta");
     const list = document.getElementById("list");
     const status = document.getElementById("status");
     const playFullButton = document.getElementById("play-full");
-    const fullPlayer = new Audio("full.mp3");
-    const clipPlayers = new Map();
-    const warmedClipIds = new Set();
-    const segmentMap = new Map();
-    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || null;
-    const allowAggressiveWarmup = !connection || (!connection.saveData && !/2g/.test(connection.effectiveType || ""));
-    const initialWarmCount = allowAggressiveWarmup ? 5 : 2;
+    const docLink = document.getElementById("doc-link");
+    const pageTitle = document.getElementById("page-title");
+    const topicSummary = document.getElementById("topic-summary");
 
+    let topics = [];
+    let currentTopic = null;
     let segments = [];
+    let fullPlayer = new Audio();
+    let clipPlayers = new Map();
+    let warmedClipIds = new Set();
+    let segmentMap = new Map();
     let activeId = null;
     let currentClip = null;
     let observer = null;
 
-    fullPlayer.preload = "metadata";
+    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || null;
+    const allowAggressiveWarmup = !connection || (!connection.saveData && !/2g/.test(connection.effectiveType || ""));
+    const initialWarmCount = allowAggressiveWarmup ? 5 : 2;
 
     function updateStatus(text) {
       status.textContent = text;
     }
 
     function escapeHtml(text) {
-      return text
+      return String(text || "")
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;")
@@ -494,6 +483,7 @@
     }
 
     function formatRange(start, end) {
+      if (!end || end <= start) return "无可用时间戳";
       return `${formatTime(start)} - ${formatTime(end)}`;
     }
 
@@ -521,9 +511,13 @@
       fullPlayer.load();
     }
 
+    function clipUrl(segment) {
+      return `${currentTopic.base_path}/${segment.audio_file}`;
+    }
+
     function getClipPlayer(segment) {
       if (!clipPlayers.has(segment.id)) {
-        const player = new Audio(segment.audio_file);
+        const player = new Audio(clipUrl(segment));
         player.preload = "metadata";
         player.addEventListener("ended", () => {
           if (currentClip === player) {
@@ -543,7 +537,7 @@
     }
 
     function warmClip(segment, eager = false) {
-      if (!segment || warmedClipIds.has(segment.id)) return;
+      if (!segment || !segment.audio_file || warmedClipIds.has(segment.id)) return;
       warmedClipIds.add(segment.id);
       const player = getClipPlayer(segment);
       player.preload = eager ? "auto" : "metadata";
@@ -559,6 +553,7 @@
     }
 
     function setupObserver() {
+      if (observer) observer.disconnect();
       if (!("IntersectionObserver" in window)) return;
       observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -567,10 +562,7 @@
           warmClip(segmentMap.get(id), allowAggressiveWarmup);
           observer.unobserve(entry.target);
         });
-      }, {
-        rootMargin: "220px 0px"
-      });
-
+      }, { rootMargin: "220px 0px" });
       document.querySelectorAll(".sentence").forEach((card) => observer.observe(card));
     }
 
@@ -587,11 +579,10 @@
     }
 
     async function playClip(segment) {
+      if (!segment.audio_file) return;
       stopFull();
       const player = getClipPlayer(segment);
-      if (currentClip && currentClip !== player) {
-        stopClip();
-      }
+      if (currentClip && currentClip !== player) stopClip();
       currentClip = player;
       setActive(segment.id);
       player.currentTime = 0;
@@ -609,45 +600,105 @@
         const article = document.createElement("article");
         article.className = "sentence";
         article.dataset.id = segment.id;
+        const hasAudio = Boolean(segment.audio_file);
         article.innerHTML = `
           <div class="sentence-head">
             <div class="left-controls">
-              <button class="clip-btn" type="button">${TEXT.playClip}</button>
-              <span class="seq">第 ${String(segment.id).padStart(2, "0")} 句</span>
+              <button class="clip-btn" type="button" ${hasAudio ? "" : "disabled"}>${hasAudio ? TEXT.playClip : TEXT.noAudio}</button>
+              <span class="seq">第 ${String(segment.id).padStart(2, "0")} 段</span>
             </div>
             <span class="timecode">${formatRange(segment.start, segment.end)}</span>
           </div>
           <div class="copy-labels">
-            <span class="copy-label copy-label-en">English</span>
+            <span class="copy-label copy-label-en">English Original</span>
             <span class="copy-label copy-label-zh">${TEXT.labelZh}</span>
           </div>
           <p class="en">${escapeHtml(segment.en)}</p>
           <p class="zh">${escapeHtml(segment.zh)}</p>
         `;
         const button = article.querySelector(".clip-btn");
-        button.addEventListener("pointerdown", () => warmClip(segment, true), { passive: true });
-        button.addEventListener("touchstart", () => warmClip(segment, true), { passive: true });
-        button.addEventListener("mouseenter", () => warmClip(segment, false));
-        button.addEventListener("focus", () => warmClip(segment, false));
-        button.addEventListener("click", () => playClip(segment));
+        if (hasAudio) {
+          button.addEventListener("pointerdown", () => warmClip(segment, true), { passive: true });
+          button.addEventListener("touchstart", () => warmClip(segment, true), { passive: true });
+          button.addEventListener("mouseenter", () => warmClip(segment, false));
+          button.addEventListener("focus", () => warmClip(segment, false));
+          button.addEventListener("click", () => playClip(segment));
+        }
         list.appendChild(article);
       });
     }
 
-    async function loadSegments() {
+    function renderTopicChrome() {
+      pageTitle.textContent = `${currentTopic.title} · 总经理英文讲话练习`;
+      topicSummary.textContent = currentTopic.summary;
+      docLink.href = currentTopic.docx_file;
+      fullPlayer = new Audio(`${currentTopic.base_path}/full.mp3`);
+      fullPlayer.preload = "metadata";
+      fullPlayer.addEventListener("ended", () => updateStatus(TEXT.statusFullDone));
+      fullPlayer.addEventListener("error", () => updateStatus(TEXT.statusPlayFailed));
+      meta.innerHTML = `
+        <span class="meta-chip">${currentTopic.english_title}</span>
+        <span class="meta-chip">${currentTopic.segment_count} 段中英对照</span>
+        <span class="meta-chip">${currentTopic.clip_count} 段男声切片</span>
+      `;
+      tabs.querySelectorAll(".tab").forEach((tab) => {
+        tab.classList.toggle("active", tab.dataset.slug === currentTopic.slug);
+      });
+    }
+
+    async function loadTopic(topic) {
+      currentTopic = topic;
+      segments = [];
+      segmentMap = new Map();
+      clipPlayers = new Map();
+      warmedClipIds = new Set();
+      stopClip();
+      stopFull();
+      setActive(null);
+      renderTopicChrome();
       updateStatus(TEXT.statusLoading);
+      list.innerHTML = '<div class="loading-card">正在加载练习内容… 如果网络稍慢，请等待 1-2 秒。</div>';
       try {
-        const response = await fetch("segments.json", { cache: "force-cache" });
+        const response = await fetch(`${topic.base_path}/segments.json`, { cache: "force-cache" });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         segments = await response.json();
         segments.forEach((segment) => segmentMap.set(segment.id, segment));
         renderSegments();
         warmFullAudio();
         scheduleWarmup(() => {
-          segments.slice(0, initialWarmCount).forEach((segment) => warmClip(segment, true));
+          segments.filter((segment) => segment.audio_file).slice(0, initialWarmCount).forEach((segment) => warmClip(segment, true));
         });
         setupObserver();
-        updateStatus(TEXT.statusLoaded(segments.length));
+        updateStatus(TEXT.statusLoaded(segments.length, segments.filter((segment) => segment.audio_file).length));
+      } catch (error) {
+        list.innerHTML = '<div class="loading-card">加载失败，请刷新页面重试。</div>';
+        updateStatus(TEXT.statusLoadFailed);
+      }
+    }
+
+    function renderTabs() {
+      tabs.innerHTML = "";
+      topics.forEach((topic) => {
+        const button = document.createElement("button");
+        button.className = "tab";
+        button.type = "button";
+        button.dataset.slug = topic.slug;
+        button.textContent = topic.title;
+        button.addEventListener("click", () => loadTopic(topic));
+        tabs.appendChild(button);
+      });
+    }
+
+    async function bootstrap() {
+      updateStatus(TEXT.statusLoading);
+      try {
+        const response = await fetch("topics.json", { cache: "force-cache" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        topics = await response.json();
+        renderTabs();
+        const hashSlug = decodeURIComponent(location.hash.replace(/^#/, ""));
+        const initialTopic = topics.find((topic) => topic.slug === hashSlug) || topics[0];
+        await loadTopic(initialTopic);
       } catch (error) {
         list.innerHTML = '<div class="loading-card">加载失败，请刷新页面重试。</div>';
         updateStatus(TEXT.statusLoadFailed);
@@ -657,10 +708,8 @@
     playFullButton.addEventListener("pointerdown", warmFullAudio, { passive: true });
     playFullButton.addEventListener("touchstart", warmFullAudio, { passive: true });
     playFullButton.addEventListener("click", playFull);
-    fullPlayer.addEventListener("ended", () => updateStatus(TEXT.statusFullDone));
-    fullPlayer.addEventListener("error", () => updateStatus(TEXT.statusPlayFailed));
 
-    loadSegments();
+    bootstrap();
   </script>
 </body>
 </html>

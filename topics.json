@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "hotel-planning",
+    "title": "酒店规划发展",
+    "english_title": "Hotel Planning and Development",
+    "summary": "围绕酒店短期、中期、长期发展重点，聚焦服务标准、产品维护、品牌文化、ADR 提升和可持续增长。",
+    "base_path": "topics/hotel-planning",
+    "docx_file": "documents/hotel-planning-bilingual.docx",
+    "segment_count": 14,
+    "clip_count": 14
+  },
+  {
+    "slug": "business-development",
+    "title": "商务发展部",
+    "english_title": "Commercial Development",
+    "summary": "围绕入住率、MPI、ADR、RevPAR、细分市场、团队业务、餐饮推广和 CMD 整体表现展开。",
+    "base_path": "topics/business-development",
+    "docx_file": "documents/business-development-bilingual.docx",
+    "segment_count": 17,
+    "clip_count": 17
+  }
+]
