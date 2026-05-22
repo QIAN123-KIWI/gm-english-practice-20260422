@@ -396,16 +396,16 @@
   <main class="shell">
     <section class="hero">
       <p class="eyebrow">5.20 业主会 · 总经理英文讲话练习</p>
-      <h1 id="page-title">总经理英文讲话中英对照点播</h1>
-      <p class="hero-copy" id="topic-summary">选择专题后，可以整段听干净男声英文，也可以按 Word 段落逐段点播。当前播放音频为按核对稿生成的纯英文练习版，不含中文口译。</p>
+      <h1 id="page-title">总经理原声净化版中英对照点播</h1>
+      <p class="hero-copy" id="topic-summary">选择专题后，可以整段听总经理原声净化版，也可以按 Word 段落逐段点播。网页文字严格取自 Word，音频只保留验证通过的英文原声。</p>
       <div class="tabs" id="tabs" aria-label="专题切换"></div>
       <div class="hero-meta" id="meta"></div>
       <div class="controls">
-        <button class="primary-btn" id="play-full" type="button">播放本专题英文练习版</button>
+        <button class="primary-btn" id="play-full" type="button">播放本专题原声净化版</button>
         <a class="doc-link" id="doc-link" href="#" download>下载配套 Word 稿</a>
         <div class="status" id="status">页面加载中，马上为你准备逐段练习。</div>
       </div>
-      <p class="guide-note">使用方法：上方切换两个专题；点击“播放本专题英文练习版”听完整英文版；点击每张卡片左上角按钮，点播对应段落的纯英文男声。</p>
+      <p class="guide-note">使用方法：上方切换两个专题；点击“播放本专题原声净化版”听完整英文原声净化拼接；点击每张卡片左上角按钮，点播对应段落的可用英文原声。若原声与中文口译重叠过重，该段会显示为不可播放。</p>
     </section>
 
     <section class="list" id="list" aria-live="polite">
@@ -415,7 +415,7 @@
     <section class="tips">
       <h2>练习建议</h2>
       <ol class="tips-list">
-        <li>Word 适合看正式稿，网页适合反复点听纯英文男声。</li>
+        <li>Word 适合看正式稿，网页适合反复点听验证通过的英文原声。</li>
         <li>先听整段抓汇报逻辑，再逐段模仿停顿、重音和尾音。</li>
         <li>中文用于快速核对意思，练习时优先跟英文原声节奏走。</li>
       </ol>
@@ -424,16 +424,16 @@
 
   <script>
     const TEXT = {
-      playClip: "播放英文原段",
-      noAudio: "无男声切片",
+      playClip: "播放原声英文",
+      noAudio: "原声不可用",
       labelZh: "中文理解",
       statusLoading: "页面加载中，马上为你准备逐段练习。",
-      statusLoaded: (count, clips) => `页面已加载完成，共 ${count} 段，${clips} 段带男声切片。`,
+      statusLoaded: (count, clips) => `页面已加载完成，共 ${count} 段，${clips} 段可播放原声英文。`,
       statusLoadFailed: "页面数据加载失败，请刷新重试。",
-      statusPlayingFull: "正在播放本专题英文练习版合集。",
-      statusPlayingClip: (id, range) => `正在播放第 ${String(id).padStart(2, "0")} 段英文男声 · ${range}`,
+      statusPlayingFull: "正在播放本专题原声净化版合集。",
+      statusPlayingClip: (id, range) => `正在播放第 ${String(id).padStart(2, "0")} 段原声英文 · ${range}`,
       statusClipDone: (id) => `第 ${String(id).padStart(2, "0")} 段播放结束，可再次点击重播。`,
-      statusFullDone: "本专题英文男声播放结束，可以继续逐段练习。",
+      statusFullDone: "本专题原声净化版播放结束，可以继续逐段练习。",
       statusPlayFailed: "当前音频暂时未能播放，请再点一次试试。"
     };
 
@@ -507,6 +507,7 @@
     }
 
     function warmFullAudio() {
+      if (!currentTopic || !currentTopic.clip_count) return;
       fullPlayer.preload = allowAggressiveWarmup ? "auto" : "metadata";
       fullPlayer.load();
     }
@@ -567,6 +568,7 @@
     }
 
     async function playFull() {
+      if (!currentTopic || !currentTopic.clip_count) return;
       stopClip();
       setActive(null);
       fullPlayer.currentTime = 0;
@@ -601,6 +603,7 @@
         article.className = "sentence";
         article.dataset.id = segment.id;
         const hasAudio = Boolean(segment.audio_file);
+        const audioNote = segment.audio_note ? `<p class="zh" style="margin-top:10px;color:#8a5a2b;font-size:15px;">${escapeHtml(segment.audio_note)}</p>` : "";
         article.innerHTML = `
           <div class="sentence-head">
             <div class="left-controls">
@@ -615,6 +618,7 @@
           </div>
           <p class="en">${escapeHtml(segment.en)}</p>
           <p class="zh">${escapeHtml(segment.zh)}</p>
+          ${audioNote}
         `;
         const button = article.querySelector(".clip-btn");
         if (hasAudio) {
@@ -639,8 +643,10 @@
       meta.innerHTML = `
         <span class="meta-chip">${currentTopic.english_title}</span>
         <span class="meta-chip">${currentTopic.segment_count} 段中英对照</span>
-        <span class="meta-chip">${currentTopic.clip_count} 段男声切片</span>
+        <span class="meta-chip">${currentTopic.clip_count} 段可播放原声</span>
       `;
+      playFullButton.disabled = !currentTopic.clip_count;
+      playFullButton.textContent = currentTopic.clip_count ? "播放本专题原声净化版" : "本专题无可播原声";
       tabs.querySelectorAll(".tab").forEach((tab) => {
         tab.classList.toggle("active", tab.dataset.slug === currentTopic.slug);
       });

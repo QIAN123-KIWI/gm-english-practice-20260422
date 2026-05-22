@@ -1,142 +1,170 @@
 [
   {
     "id": 1,
-    "start": 0.0,
-    "end": 8.91,
+    "start": 1.08,
+    "end": 10.14,
     "en": "Small slides like the last time I mentioned that we a little bit of my key focus area to present to owner. I mean after meeting then our...",
     "zh": "就像我上次提到的一样，准备了几张简短的幻灯片，向业主展示一下我的几个重点关注领域。我的意思是在我们开完会之后……",
     "audio_file": "sentence_clips/001.mp3",
-    "clip_duration": 8.91,
-    "clip_text": "Small slides like the last time I mentioned that we a little bit of my key focus area to present to owner. I mean after meeting then our..."
+    "clip_duration": 9.3,
+    "clip_text": "Small slides like the last time I mentioned that we a little bit of my key focus area to present to owner. I mean after meeting then our...",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 2,
-    "start": 8.91,
-    "end": 15.34,
+    "start": 0.0,
+    "end": 0.0,
     "en": "Okay. Just allow me to just stand and point out because like it's maybe first format, so it's not familiar.",
     "zh": "好的。请允许我站起来指一下，因为这可能是第一次用这种形式，所以大家还不太熟悉。",
-    "audio_file": "sentence_clips/002.mp3",
-    "clip_duration": 6.43,
-    "clip_text": "Okay. Just allow me to just stand and point out because like it's maybe first format, so it's not familiar."
+    "audio_file": null,
+    "clip_duration": 0.0,
+    "clip_text": "Okay. Just allow me to just stand and point out because like it's maybe first format, so it's not familiar.",
+    "audio_status": "unavailable",
+    "audio_note": "原声与中文口译重叠，未提供可播原声"
   },
   {
     "id": 3,
-    "start": 15.34,
-    "end": 20.17,
+    "start": 52.0,
+    "end": 57.82,
     "en": "Just stand, just stand. Very simplified. Very simplified.",
     "zh": "就站着，就站着。非常简化。非常简化。",
     "audio_file": "sentence_clips/003.mp3",
-    "clip_duration": 4.83,
-    "clip_text": "Just stand, just stand. Very simplified. Very simplified."
+    "clip_duration": 6.06,
+    "clip_text": "Just stand, just stand. Very simplified. Very simplified.",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 4,
-    "start": 20.17,
-    "end": 39.19,
+    "start": 85.19,
+    "end": 97.86,
     "en": "As I said that when I look into this hotel, uh maybe the short term, midterm, long term. Divide kind of year by year. Usually GM stay around three years, right? Uh I wanted to focus on those uh reinforce our service standard and then our product maintenance status. Really key focus on this year.",
     "zh": "正如我所说，当我审视这家酒店时，大概分为短期、中期、长期。按年度来划分。通常总经理的任期在三年左右，对吧？我想要聚焦于巩固我们的服务标准，以及我们产品的维护状况。这确实是今年的重点核心。",
     "audio_file": "sentence_clips/004.mp3",
-    "clip_duration": 19.02,
-    "clip_text": "As I said that when I look into this hotel, uh maybe the short term, midterm, long term. Divide kind of year by year. Usually GM stay around three years, right? Uh I wanted to focus on those uh reinforce our service standard and then our product maintenance status. Really key focus on this year."
+    "clip_duration": 13.51,
+    "clip_text": "As I said that when I look into this hotel, uh maybe the short term, midterm, long term. Divide kind of year by year. Usually GM stay around three years, right? Uh I wanted to focus on those uh reinforce our service standard and then our product maintenance status. Really key focus on this year.",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 5,
-    "start": 39.19,
-    "end": 55.57,
+    "start": 99.02,
+    "end": 114.45,
     "en": "Then a mid-year strategy start from this end of this year, further really we need to strengthen our brand culture of every product, every service, even checking process, even room amenities, all kind of promotion related, we really need to bloom this.",
     "zh": "那么中期的战略从今年年底开始，我们确实需要进一步强化我们每一项产品、每一项服务的品牌文化，甚至包括入住流程，甚至是客房洗浴用品，以及所有与促销相关的方面，我们真的需要让这些全面开花。",
     "audio_file": "sentence_clips/005.mp3",
-    "clip_duration": 16.38,
-    "clip_text": "Then a mid-year strategy start from this end of this year, further really we need to strengthen our brand culture of every product, every service, even checking process, even room amenities, all kind of promotion related, we really need to bloom this."
+    "clip_duration": 16.27,
+    "clip_text": "Then a mid-year strategy start from this end of this year, further really we need to strengthen our brand culture of every product, every service, even checking process, even room amenities, all kind of promotion related, we really need to bloom this.",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 6,
-    "start": 55.57,
-    "end": 88.28,
+    "start": 114.55,
+    "end": 141.82,
     "en": "And then in the end in long term, eventually I wanted to beat the Peninsula in average rate. However, sustainable permanent performance is really key important. We are now very much not proper that too much rooms. Bail less other revenue. This is a typical status of all the hotel. Didn't really support with these two things. So I wanted to change this to sustainable and then ranking RGI ranking by two driving average rate ranking higher. I'm not sure if you can...",
     "zh": "然后最后在长期来看，我最终希望在平均房价上击败半岛酒店。然而，可持续的持久业绩确实是至关重要的。我们现在的状态非常不合理，客房（收入）占比太重，而其他收入贡献太少。这是所有酒店的典型状况。它们并没有真正在这两方面提供支持。所以我想把它改变为可持续的模式，然后通过推动平均房价排名上升，将RGI（收入生成指数）排名提升到第二位。我不知道你能不能……",
     "audio_file": "sentence_clips/006.mp3",
-    "clip_duration": 32.71,
-    "clip_text": "And then in the end in long term, eventually I wanted to beat the Peninsula in average rate. However, sustainable permanent performance is really key important. We are now very much not proper that too much rooms. Bail less other revenue. This is a typical status of all the hotel. Didn't really support with these two things. So I wanted to change this to sustainable and then ranking RGI ranking by two driving average rate ranking higher. I'm not sure if you can..."
+    "clip_duration": 28.71,
+    "clip_text": "And then in the end in long term, eventually I wanted to beat the Peninsula in average rate. However, sustainable permanent performance is really key important. We are now very much not proper that too much rooms. Bail less other revenue. This is a typical status of all the hotel. Didn't really support with these two things. So I wanted to change this to sustainable and then ranking RGI ranking by two driving average rate ranking higher. I'm not sure if you can...",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 7,
-    "start": 88.28,
-    "end": 146.27,
+    "start": 200.58,
+    "end": 250.41,
     "en": "So if you look at that this short-term, mid-term, long-term one by one a bit. This is short term. And then short term this is kind of key area I just point out short term how I'm going to improve. So our index, service index practically speaking very much lower than our even average. Also Ctrip, Booking.com overall our numbers are really showing that we really need to improve our service standard. Also re-establish our luxury culture and service in our overall service and product when we are always discussing within team. Those philosophy a little bit weakened. We have a great hardware but software and product we still need to improve. And then each department ownership is required on each area. And then we need to work as a team. Team to team. We put the guest in front and then team to team. And then this one should be consistent. So those are the things when I look at that we need to focus on short term.",
     "zh": "所以如果你逐一看一下这个短期、中期、长期。这是短期。短期内这是我刚才指出的几个关键领域，短期内我打算如何改进。所以我们的指数，服务指数实际上说起来甚至远低于我们的平均水平。还有携程、Booking.com，总体来看我们的数据真的表明我们确实需要提高服务标准。同时也要在我们的整体服务和产品中重新确立我们的奢华文化和服务，当我们总是在团队内部讨论时，这些理念有点被削弱了。我们有很棒的硬件，但软件和产品我们仍然需要改进。然后每个部门都需要在各自领域具备主人翁意识。我们需要作为一个团队来工作。团队与团队之间。我们把客人放在第一位，然后团队与团队协作。而且这一点需要保持一致性。所以当我看到这些时，这些就是我们短期内需要关注的事情。",
     "audio_file": "sentence_clips/007.mp3",
-    "clip_duration": 57.99,
-    "clip_text": "So if you look at that this short-term, mid-term, long-term one by one a bit. This is short term. And then short term this is kind of key area I just point out short term how I'm going to improve. So our index, service index practically speaking very much lower than our even average. Also Ctrip, Booking.com overall our numbers are really showing that we really need to improve our service standard. Also re-establish our luxury culture and service in our overall service and product when we are always discussing within team. Those philosophy a little bit weakened. We have a great hardware but software and product we still need to improve. And then each department ownership is required on each area. And then we need to work as a team. Team to team. We put the guest in front and then team to team. And then this one should be consistent. So those are the things when I look at that we need to focus on short term."
+    "clip_duration": 52.48,
+    "clip_text": "So if you look at that this short-term, mid-term, long-term one by one a bit. This is short term. And then short term this is kind of key area I just point out short term how I'm going to improve. So our index, service index practically speaking very much lower than our even average. Also Ctrip, Booking.com overall our numbers are really showing that we really need to improve our service standard. Also re-establish our luxury culture and service in our overall service and product when we are always discussing within team. Those philosophy a little bit weakened. We have a great hardware but software and product we still need to improve. And then each department ownership is required on each area. And then we need to work as a team. Team to team. We put the guest in front and then team to team. And then this one should be consistent. So those are the things when I look at that we need to focus on short term.",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 8,
-    "start": 146.27,
-    "end": 186.84,
+    "start": 0.0,
+    "end": 0.0,
     "en": "And these are the things ah. Like this was the last year and this was the first quarter when there is no leadership. So look at that this kind of points. And then now this is average GCM. And this is our a little bit, little bit higher every month, which is good signal, but not enough. So these are the GCM average. And then we are be honest, very much lower than others in average wise. And then these are the Ctrip score. And then these are Expedia, Booking.com score compared to all the WA hotel. If you look at that, we are overall very lower. So this is kind of objective point of view that quality is not really there.",
     "zh": "还有这些。比如这是去年的，这是第一季度没有领导层的时候。所以看看这些分数。然后现在这是平均的GCM（宾客满意度）。然后我们每个月都稍微、稍微高一点，这是个好信号，但还不够。所以这些是GCM的平均值。老实说，在平均水平上我们比其他酒店低很多。然后这些是携程的评分。还有这些是Expedia、Booking.com与所有华尔道夫（WA）酒店相比的评分。如果你看一下，我们总体上非常低。所以这是一种客观的观点，说明质量确实没有达到标准。",
-    "audio_file": "sentence_clips/008.mp3",
-    "clip_duration": 40.57,
-    "clip_text": "And these are the things ah. Like this was the last year and this was the first quarter when there is no leadership. So look at that this kind of points. And then now this is average GCM. And this is our a little bit, little bit higher every month, which is good signal, but not enough. So these are the GCM average. And then we are be honest, very much lower than others in average wise. And then these are the Ctrip score. And then these are Expedia, Booking.com score compared to all the WA hotel. If you look at that, we are overall very lower. So this is kind of objective point of view that quality is not really there."
+    "audio_file": null,
+    "clip_duration": 0.0,
+    "clip_text": "And these are the things ah. Like this was the last year and this was the first quarter when there is no leadership. So look at that this kind of points. And then now this is average GCM. And this is our a little bit, little bit higher every month, which is good signal, but not enough. So these are the GCM average. And then we are be honest, very much lower than others in average wise. And then these are the Ctrip score. And then these are Expedia, Booking.com score compared to all the WA hotel. If you look at that, we are overall very lower. So this is kind of objective point of view that quality is not really there.",
+    "audio_status": "unavailable",
+    "audio_note": "原声与中文口译重叠，未提供可播原声"
   },
   {
     "id": 9,
-    "start": 186.84,
-    "end": 209.31,
+    "start": 0.0,
+    "end": 0.0,
     "en": "You may remember after pandemic for two years our STR and overall comparison data with other hotel we are relatively low. Uh now we have a demand in the market, so our location and then brand can attract this. But if in case we have a demand lower, then we are the first hotel losing this kind of demand. Like this is the uh proven from this pandemic period.",
     "zh": "你们可能还记得，疫情后的两年里，我们的STR（酒店数据）以及与其他酒店的整体对比数据都相对较低。现在市场上存在需求，所以我们的地理位置和品牌可以吸引到这些需求。但万一市场需求下降，我们将是第一家流失这部分需求的酒店。这就好像在这段疫情期间被证明过的那样。",
-    "audio_file": "sentence_clips/009.mp3",
-    "clip_duration": 22.47,
-    "clip_text": "You may remember after pandemic for two years our STR and overall comparison data with other hotel we are relatively low. Uh now we have a demand in the market, so our location and then brand can attract this. But if in case we have a demand lower, then we are the first hotel losing this kind of demand. Like this is the uh proven from this pandemic period."
+    "audio_file": null,
+    "clip_duration": 0.0,
+    "clip_text": "You may remember after pandemic for two years our STR and overall comparison data with other hotel we are relatively low. Uh now we have a demand in the market, so our location and then brand can attract this. But if in case we have a demand lower, then we are the first hotel losing this kind of demand. Like this is the uh proven from this pandemic period.",
+    "audio_status": "unavailable",
+    "audio_note": "原声与中文口译重叠，未提供可播原声"
   },
   {
     "id": 10,
-    "start": 209.31,
-    "end": 273.39,
+    "start": 0.0,
+    "end": 0.0,
     "en": "Uh also like back to the basic, very uh now what I write down is really basic things which we really uh need to improve first. Uh according to our guest comments on previous five months when I look at that 40% of the comments are about the the product defect. Product defect including all kind of those written things. So uh which we also experience every day. Uh we have those kind of team to can improve. Uh so this um uh no need the big renovation but kind of our hotel uh general manager need to engage with our team housekeeping and engineer to improve those area. And then I mean really refine product we need to keep it is very important. So those leakage, odor, smells and then also we really do the PM uh project very in detail, not rather than only just as a routine. And also five sensory experience like a touch, hear, seeing those kind of area to maintain our really uh proper presentation of the our system area is really, really important uh on top of this as well.",
     "zh": "还有回归基础，现在我写下来的真的是一些最基本的事情，也是我们真的需要首先改进的。根据我们在过去五个月的宾客评论，我发现40%的评论是关于产品缺陷的。产品缺陷包括上面写出的各种问题。我们每天也能体会到这些。我们有这样的团队可以去改善。所以这不需要大规模的翻新，但我们酒店的总经理需要与客房部和工程部团队一起参与改进这些领域。我的意思是，真正去打磨产品，我们需要保持下去，这非常重要。所以像漏水、异味、气味等问题，而且我们真的需要非常详细地去做预防性维护（PM）项目，而不是仅仅把它当成例行公事。此外，五种感官体验，比如触觉、听觉、视觉等这些方面，维持我们系统区域真正的妥善呈现，在这之上也是非常非常重要的。",
-    "audio_file": "sentence_clips/010.mp3",
-    "clip_duration": 64.08,
-    "clip_text": "Uh also like back to the basic, very uh now what I write down is really basic things which we really uh need to improve first. Uh according to our guest comments on previous five months when I look at that 40% of the comments are about the the product defect. Product defect including all kind of those written things. So uh which we also experience every day. Uh we have those kind of team to can improve. Uh so this um uh no need the big renovation but kind of our hotel uh general manager need to engage with our team housekeeping and engineer to improve those area. And then I mean really refine product we need to keep it is very important. So those leakage, odor, smells and then also we really do the PM uh project very in detail, not rather than only just as a routine. And also five sensory experience like a touch, hear, seeing those kind of area to maintain our really uh proper presentation of the our system area is really, really important uh on top of this as well."
+    "audio_file": null,
+    "clip_duration": 0.0,
+    "clip_text": "Uh also like back to the basic, very uh now what I write down is really basic things which we really uh need to improve first. Uh according to our guest comments on previous five months when I look at that 40% of the comments are about the the product defect. Product defect including all kind of those written things. So uh which we also experience every day. Uh we have those kind of team to can improve. Uh so this um uh no need the big renovation but kind of our hotel uh general manager need to engage with our team housekeeping and engineer to improve those area. And then I mean really refine product we need to keep it is very important. So those leakage, odor, smells and then also we really do the PM uh project very in detail, not rather than only just as a routine. And also five sensory experience like a touch, hear, seeing those kind of area to maintain our really uh proper presentation of the our system area is really, really important uh on top of this as well.",
+    "audio_status": "unavailable",
+    "audio_note": "原声与中文口译重叠，未提供可播原声"
   },
   {
     "id": 11,
-    "start": 273.39,
-    "end": 295.62,
+    "start": 513.13,
+    "end": 540.21,
     "en": "So uh this is the mid-term. So before we talk about mid-term the the the the first short-term is the really basic experience. When we go to the hotel first welcoming, how to handle my bags, checking process, when I go to the room that oh everything is ready. Those kind of experience we need to deliver. Uh so that's why short-term I focus on that.",
     "zh": "所以这是中期的。在谈论中期目标之前，第一个短期目标真的是最基础的体验。当我们去酒店时，第一次迎接、如何处理我的行李、入住流程、当我进入房间时感叹“哦，一切都准备好了”。我们需要提供这种体验。这就是为什么在短期内我把重心放在这里。",
     "audio_file": "sentence_clips/011.mp3",
-    "clip_duration": 22.23,
-    "clip_text": "So uh this is the mid-term. So before we talk about mid-term the the the the first short-term is the really basic experience. When we go to the hotel first welcoming, how to handle my bags, checking process, when I go to the room that oh everything is ready. Those kind of experience we need to deliver. Uh so that's why short-term I focus on that."
+    "clip_duration": 27.92,
+    "clip_text": "So uh this is the mid-term. So before we talk about mid-term the the the the first short-term is the really basic experience. When we go to the hotel first welcoming, how to handle my bags, checking process, when I go to the room that oh everything is ready. Those kind of experience we need to deliver. Uh so that's why short-term I focus on that.",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 12,
-    "start": 295.62,
-    "end": 344.57,
+    "start": 594.78,
+    "end": 605.1,
     "en": "So mid-term like and start from this end of this year all the product, service we are discussing we really need to focus on our brand and then heritage story. Uh as I mentioned here all this is our my short-term vision that everything what we are talking about our product and service should be rooted in our heritage and Waldorf. And then we deliver consistent luxury service first. Elevate F&B. Luxury without F&B cannot. And then as a one team we need to work. And then have a balance hotel performance. Balance hotel performance means not only room leading others, rooms, F&B itself, catering itself, they are really driving all together as a really balanced sustainable luxury revenue.",
     "zh": "所以中期的，从今年年底开始，我们讨论的所有产品和服务，我们真的需要聚焦于我们的品牌和历史传承故事。正如我在这里提到的，这一切都是我的短期愿景，即我们所谈论的所有关于产品和服务的事情，都应该植根于我们的历史底蕴和华尔道夫品牌之中。然后我们首先要提供始终如一的奢华服务。提升餐饮水平。没有餐饮的奢华是行不通的。然后我们需要作为一个团队来工作。并且拥有均衡的酒店业绩。均衡的酒店业绩意味着不仅仅是客房领先其他部门，客房、餐饮本身、宴会本身，它们真正地共同驱动，形成一个真正均衡、可持续的奢华酒店收入。",
     "audio_file": "sentence_clips/012.mp3",
-    "clip_duration": 48.95,
-    "clip_text": "So mid-term like and start from this end of this year all the product, service we are discussing we really need to focus on our brand and then heritage story. Uh as I mentioned here all this is our my short-term vision that everything what we are talking about our product and service should be rooted in our heritage and Waldorf. And then we deliver consistent luxury service first. Elevate F&B. Luxury without F&B cannot. And then as a one team we need to work. And then have a balance hotel performance. Balance hotel performance means not only room leading others, rooms, F&B itself, catering itself, they are really driving all together as a really balanced sustainable luxury revenue."
+    "clip_duration": 10.97,
+    "clip_text": "So mid-term like and start from this end of this year all the product, service we are discussing we really need to focus on our brand and then heritage story. Uh as I mentioned here all this is our my short-term vision that everything what we are talking about our product and service should be rooted in our heritage and Waldorf. And then we deliver consistent luxury service first. Elevate F&B. Luxury without F&B cannot. And then as a one team we need to work. And then have a balance hotel performance. Balance hotel performance means not only room leading others, rooms, F&B itself, catering itself, they are really driving all together as a really balanced sustainable luxury revenue.",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 13,
-    "start": 344.57,
-    "end": 375.86,
+    "start": 628.54,
+    "end": 661.95,
     "en": "We also have a nice a wide beautiful collaboration we do now which is great. But also we need to look at that our kind of near surrounding. I think owner has a great business uh units. Many of things also we can collaborate based on this root culture. And also Marcom deliver those consistency for the years and years so market aware this. And then uh in the end we drive guest experience with this our unique uh uh WA and heritage story.",
     "zh": "我们现在也有很好的、广泛而漂亮的合作，这很棒。但我们也需要看看我们周边的环境。我认为业主拥有很棒的业务单元。很多事情我们也可以基于这种根源文化进行合作。同时，市场公关部（Marcom）需要年复一年地传递这种一致性，让市场意识到这一点。然后最后，我们用我们独特的华尔道夫（WA）和历史传承故事来驱动宾客体验。",
     "audio_file": "sentence_clips/013.mp3",
-    "clip_duration": 31.29,
-    "clip_text": "We also have a nice a wide beautiful collaboration we do now which is great. But also we need to look at that our kind of near surrounding. I think owner has a great business uh units. Many of things also we can collaborate based on this root culture. And also Marcom deliver those consistency for the years and years so market aware this. And then uh in the end we drive guest experience with this our unique uh uh WA and heritage story."
+    "clip_duration": 34.25,
+    "clip_text": "We also have a nice a wide beautiful collaboration we do now which is great. But also we need to look at that our kind of near surrounding. I think owner has a great business uh units. Many of things also we can collaborate based on this root culture. And also Marcom deliver those consistency for the years and years so market aware this. And then uh in the end we drive guest experience with this our unique uh uh WA and heritage story.",
+    "audio_status": "available",
+    "audio_note": ""
   },
   {
     "id": 14,
-    "start": 375.86,
-    "end": 404.88,
+    "start": 0.0,
+    "end": 0.0,
     "en": "Faster, right? Ah okay. So this is the long term that I wanted to really up to the rank two by driving ADR for the future. And then uh positioning as really benchmark luxury our heritage uh uh culture destination. And then uh sustainable growth I just mentioned that. And then Forbes 5 star I don't think we can have it next year. But I think 2028 and 2029 we may try once we really change our culture. Those are...",
     "zh": "要快点，对吧？啊好的。所以这是长期的，我真的想在未来通过提升平均房价（ADR）达到排名第二的位置。然后定位为真正的标杆级奢华、我们的历史文化目的地。还有可持续的增长，我刚才已经提到了。然后是福布斯五星，我不认为明年我们能拿到。但我认为，一旦我们真正改变了我们的文化，2028年和2029年我们可以尝试去争取。这些就是……",
-    "audio_file": "sentence_clips/014.mp3",
-    "clip_duration": 29.02,
-    "clip_text": "Faster, right? Ah okay. So this is the long term that I wanted to really up to the rank two by driving ADR for the future. And then uh positioning as really benchmark luxury our heritage uh uh culture destination. And then uh sustainable growth I just mentioned that. And then Forbes 5 star I don't think we can have it next year. But I think 2028 and 2029 we may try once we really change our culture. Those are..."
+    "audio_file": null,
+    "clip_duration": 0.0,
+    "clip_text": "Faster, right? Ah okay. So this is the long term that I wanted to really up to the rank two by driving ADR for the future. And then uh positioning as really benchmark luxury our heritage uh uh culture destination. And then uh sustainable growth I just mentioned that. And then Forbes 5 star I don't think we can have it next year. But I think 2028 and 2029 we may try once we really change our culture. Those are...",
+    "audio_status": "unavailable",
+    "audio_note": "原声与中文口译重叠，未提供可播原声"
   }
 ]

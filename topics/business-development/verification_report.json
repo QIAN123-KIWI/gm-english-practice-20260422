@@ -1,0 +1,127 @@
+{
+  "topic": "business-development",
+  "results": [
+    {
+      "topic": "business-development",
+      "segment_id": 1,
+      "status": "pass",
+      "detected_text": "How are two of the classes? The occupancy of the group 89, 88, or index FK is 103. Or index of all average rate is 109. So 103 and 109, and then our RAPA index is 103. So 17% higher as RAPA number 2. RAPA was really wonderful. The RAPA number 2 is really meaningful.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 2,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 3,
+      "status": "pass",
+      "detected_text": "This is a last year position. This is this year position. Last year position, you're here on the little bit of lower occupancy and the lower average rate. Now, a little bit higher on average rate and higher occupancy. But in the future, we need to go this side to catch up this potential. So we want to keep driving up to this point for the future.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 4,
+      "status": "pass",
+      "detected_text": "As I said, now a contracted room life is similar to last year which is on right track, but a little bit concerned is only average right now.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 5,
+      "status": "pass",
+      "detected_text": "our leisure segments. Our CD team is doing great job on different kind of promotion joining, keep having our average rate in occupancy high arena, which is also a great job. We are now doing the market team.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 6,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 7,
+      "status": "pass",
+      "detected_text": "GRC, I think it's good to see that only this evolution. So mainly we have GRC production established in 800. Good balance on these last two weeks, especially this Sunday Monday, we also have a good group conformed. So we are going to have the driving hour, which is great, and then also overall RGR in this period to keep this our ranking and our job position.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 8,
+      "status": "pass",
+      "detected_text": "Our June total is $2,200, especially we have a big max-bar group. All the CEO corporate teams come fly from the US to stay with us. We are now concerning on this group to improve our overall FNB revenue as well. And then now there's a room like $2,200 is well-balanced on this June to keep our overall...",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 9,
+      "status": "pass",
+      "detected_text": "on the room life with average rates 2004, but this year is already 8% higher, under 5,800, 600 room life more, and then average rate also around 130 RMB higher. So the condition of the May is also well balanced. So now, half full year forecast, we are now looking at that 9,000,000 and a half million, 85,000,000 a half million a half million a half million a half million.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 10,
+      "status": "pass",
+      "detected_text": "Just a few point is, now we have this long term average rate is 1400, last year 1600. In this one, we may need to have a look into detail, and the corporate area is 14 to 15.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 11,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 12,
+      "status": "pass",
+      "detected_text": "K-Train overall by main YTD, we are also having 33 points, total overall we are around 5. K-Train overall is higher by main YTD. Now until April YTD we are higher, but the main also, now we are looking at 4.3 million, 33.8 million we are higher, But we see that from June, our forecast compared to budget is a little bit behind now. So maybe we need to improve our wedding section, which is our target is 20 million on this year. But the moment our definite of this second half is a little bit weaker than budget. So I think Jerry already working with the marketing team and then Bank of Service team how we can improve this wedding number to catch up this overall webging budget and then catch it in budget.",
+      "reason": "pass"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 13,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "自动验证未通过：检测到中文字符"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 14,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "自动验证未通过：检测到中文字符"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 15,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "自动验证未通过：检测到中文字符"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 16,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
+    },
+    {
+      "topic": "business-development",
+      "segment_id": 17,
+      "status": "unavailable",
+      "detected_text": "",
+      "reason": "原声与中文口译重叠，未提供可播原声"
+    }
+  ],
+  "pass_count": 9,
+  "fail_count": 0,
+  "unavailable_count": 8
+}
